@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function BlogItem() {
@@ -5,7 +6,7 @@ export default function BlogItem() {
     <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s">
       <div className="blog-item">
         <div className="overflow-hidden rounded">
-          <img src="img/blog-1.jpg" className="img-fluid w-100" alt="" />
+          <Image src="img/blog-1.jpg" className="img-fluid w-100" alt="" />
         </div>
         <div className="blog-content mx-4 d-flex rounded bg-light">
           <div className="text-dark bg-primary rounded-start">

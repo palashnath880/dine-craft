@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function EventsArea() {
@@ -91,7 +92,7 @@ export default function EventsArea() {
                           key={index}
                         >
                           <div className="event-img position-relative">
-                            <img
+                            <Image
                               className="img-fluid rounded w-100"
                               src="img/event-1.jpg"
                               alt=""

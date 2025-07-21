@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function MenuArea() {
@@ -85,7 +86,7 @@ export default function MenuArea() {
                     data-wow-delay="0.1s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-01.jpg"
                         alt=""
@@ -107,7 +108,7 @@ export default function MenuArea() {
                     data-wow-delay="0.2s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-02.jpg"
                         alt=""
@@ -129,7 +130,7 @@ export default function MenuArea() {
                     data-wow-delay="0.3s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-03.jpg"
                         alt=""
@@ -151,7 +152,7 @@ export default function MenuArea() {
                     data-wow-delay="0.4s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-04.jpg"
                         alt=""
@@ -173,7 +174,7 @@ export default function MenuArea() {
                     data-wow-delay="0.5s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-05.jpg"
                         alt=""
@@ -195,7 +196,7 @@ export default function MenuArea() {
                     data-wow-delay="0.6s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-06.jpg"
                         alt=""
@@ -217,7 +218,7 @@ export default function MenuArea() {
                     data-wow-delay="0.7s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-07.jpg"
                         alt=""
@@ -239,7 +240,7 @@ export default function MenuArea() {
                     data-wow-delay="0.8s"
                   >
                     <div className="menu-item d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded-circle"
                         src="img/menu-08.jpg"
                         alt=""

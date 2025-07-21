@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function page() {
@@ -17,7 +18,11 @@ export default function page() {
           >
             <div className="blog-item">
               <div className="overflow-hidden rounded">
-                <img src="img/blog-1.jpg" className="img-fluid w-100" alt="" />
+                <Image
+                  src="img/blog-1.jpg"
+                  className="img-fluid w-100"
+                  alt=""
+                />
               </div>
               <div className="blog-content mx-4 d-flex rounded bg-light">
                 <div className="text-dark bg-primary rounded-start">
@@ -38,7 +43,11 @@ export default function page() {
           >
             <div className="blog-item">
               <div className="overflow-hidden rounded">
-                <img src="img/blog-2.jpg" className="img-fluid w-100" alt="" />
+                <Image
+                  src="img/blog-2.jpg"
+                  className="img-fluid w-100"
+                  alt=""
+                />
               </div>
               <div className="blog-content mx-4 d-flex rounded bg-light">
                 <div className="text-dark bg-primary rounded-start">
@@ -59,7 +68,11 @@ export default function page() {
           >
             <div className="blog-item">
               <div className="overflow-hidden rounded">
-                <img src="img/blog-3.jpg" className="img-fluid w-100" alt="" />
+                <Image
+                  src="img/blog-3.jpg"
+                  className="img-fluid w-100"
+                  alt=""
+                />
               </div>
               <div className="blog-content mx-4 d-flex rounded bg-light">
                 <div className="text-dark bg-primary rounded-start">

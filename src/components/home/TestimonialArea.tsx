@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function TestimonialArea() {
@@ -17,7 +18,7 @@ export default function TestimonialArea() {
           {[...Array(10)].map((_, index) => (
             <div className="testimonial-item rounded bg-light" key={index}>
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-1.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function TeamArea() {
@@ -16,7 +17,7 @@ export default function TeamArea() {
             data-wow-delay="0.1s"
           >
             <div className="team-item rounded">
-              <img
+              <Image
                 className="img-fluid rounded-top"
                 src="img/team-1.jpg"
                 alt=""
@@ -58,7 +59,7 @@ export default function TeamArea() {
             data-wow-delay="0.3s"
           >
             <div className="team-item rounded">
-              <img
+              <Image
                 className="img-fluid rounded-top"
                 src="img/team-2.jpg"
                 alt=""
@@ -100,7 +101,7 @@ export default function TeamArea() {
             data-wow-delay="0.5s"
           >
             <div className="team-item rounded">
-              <img
+              <Image
                 className="img-fluid rounded-top"
                 src="img/team-3.jpg"
                 alt=""
@@ -142,7 +143,7 @@ export default function TeamArea() {
             data-wow-delay="0.7s"
           >
             <div className="team-item rounded">
-              <img
+              <Image
                 className="img-fluid rounded-top"
                 src="img/team-4.jpg"
                 alt=""

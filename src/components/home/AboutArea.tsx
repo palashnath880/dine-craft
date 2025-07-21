@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function AboutArea() {
@@ -6,7 +7,7 @@ export default function AboutArea() {
       <div className="container">
         <div className="row g-5 align-items-center">
           <div className="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
-            <img src="img/about.jpg" className="img-fluid rounded" alt="" />
+            <Image src="img/about.jpg" className="img-fluid rounded" alt="" />
           </div>
           <div className="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
             <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">

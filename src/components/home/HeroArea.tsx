@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function HeroArea() {
@@ -27,7 +28,7 @@ export default function HeroArea() {
             </a>
           </div>
           <div className="col-lg-5 col-md-12">
-            <img
+            <Image
               src="img/hero.png"
               className="img-fluid rounded animated zoomIn"
               alt=""

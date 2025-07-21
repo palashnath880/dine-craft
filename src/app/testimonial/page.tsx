@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function page() {
@@ -34,7 +35,7 @@ export default function page() {
           >
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-1.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -66,7 +67,7 @@ export default function page() {
             </div>
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-2.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -98,7 +99,7 @@ export default function page() {
             </div>
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-3.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -130,7 +131,7 @@ export default function page() {
             </div>
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-4.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -167,7 +168,7 @@ export default function page() {
           >
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-1.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -199,7 +200,7 @@ export default function page() {
             </div>
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-2.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -231,7 +232,7 @@ export default function page() {
             </div>
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-3.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
@@ -263,7 +264,7 @@ export default function page() {
             </div>
             <div className="testimonial-item rounded bg-light">
               <div className="d-flex mb-3">
-                <img
+                <Image
                   src="img/testimonial-4.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""

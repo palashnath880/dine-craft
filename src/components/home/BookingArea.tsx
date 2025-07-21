@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function BookingArea() {
@@ -9,7 +10,7 @@ export default function BookingArea() {
       <div className="container">
         <div className="row g-0">
           <div className="col-1">
-            <img
+            <Image
               src="img/background-site.jpg"
               className="img-fluid h-100 w-100 rounded-start"
               style={{ objectFit: "cover", opacity: "0.7" }}
@@ -126,7 +127,7 @@ export default function BookingArea() {
             </div>
           </div>
           <div className="col-1">
-            <img
+            <Image
               src="img/background-site.jpg"
               className="img-fluid h-100 w-100 rounded-end"
               style={{ objectFit: "cover", opacity: "0.7" }}

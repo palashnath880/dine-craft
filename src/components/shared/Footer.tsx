@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Footer() {
@@ -96,42 +97,42 @@ export default function Footer() {
                 <h4 className="mb-4">Social Gallery</h4>
                 <div className="row g-2">
                   <div className="col-4">
-                    <img
+                    <Image
                       src="img/menu-01.jpg"
                       className="img-fluid rounded-circle border border-primary p-2"
                       alt=""
                     />
                   </div>
                   <div className="col-4">
-                    <img
+                    <Image
                       src="img/menu-02.jpg"
                       className="img-fluid rounded-circle border border-primary p-2"
                       alt=""
                     />
                   </div>
                   <div className="col-4">
-                    <img
+                    <Image
                       src="img/menu-03.jpg"
                       className="img-fluid rounded-circle border border-primary p-2"
                       alt=""
                     />
                   </div>
                   <div className="col-4">
-                    <img
+                    <Image
                       src="img/menu-04.jpg"
                       className="img-fluid rounded-circle border border-primary p-2"
                       alt=""
                     />
                   </div>
                   <div className="col-4">
-                    <img
+                    <Image
                       src="img/menu-05.jpg"
                       className="img-fluid rounded-circle border border-primary p-2"
                       alt=""
                     />
                   </div>
                   <div className="col-4">
-                    <img
+                    <Image
                       src="img/menu-06.jpg"
                       className="img-fluid rounded-circle border border-primary p-2"
                       alt=""

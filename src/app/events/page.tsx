@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function page() {
@@ -101,7 +102,7 @@ export default function page() {
                         data-wow-delay="0.1s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-1.jpg"
                             alt=""
@@ -123,7 +124,7 @@ export default function page() {
                         data-wow-delay="0.3s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-2.jpg"
                             alt=""
@@ -145,7 +146,7 @@ export default function page() {
                         data-wow-delay="0.5s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-3.jpg"
                             alt=""
@@ -167,7 +168,7 @@ export default function page() {
                         data-wow-delay="0.7s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-4.jpg"
                             alt=""
@@ -189,7 +190,7 @@ export default function page() {
                         data-wow-delay="0.1s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-5.jpg"
                             alt=""
@@ -211,7 +212,7 @@ export default function page() {
                         data-wow-delay="0.3s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-6.jpg"
                             alt=""
@@ -233,7 +234,7 @@ export default function page() {
                         data-wow-delay="0.5s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-7.jpg"
                             alt=""
@@ -255,7 +256,7 @@ export default function page() {
                         data-wow-delay="0.7s"
                       >
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-8.jpg"
                             alt=""
@@ -282,7 +283,7 @@ export default function page() {
                     <div className="row g-4">
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-1.jpg"
                             alt=""
@@ -301,7 +302,7 @@ export default function page() {
                       </div>
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-2.jpg"
                             alt=""
@@ -328,7 +329,7 @@ export default function page() {
                     <div className="row g-4">
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-3.jpg"
                             alt=""
@@ -347,7 +348,7 @@ export default function page() {
                       </div>
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-4.jpg"
                             alt=""
@@ -374,7 +375,7 @@ export default function page() {
                     <div className="row g-4">
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-5.jpg"
                             alt=""
@@ -393,7 +394,7 @@ export default function page() {
                       </div>
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-6.jpg"
                             alt=""
@@ -420,7 +421,7 @@ export default function page() {
                     <div className="row g-4">
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-7.jpg"
                             alt=""
@@ -439,7 +440,7 @@ export default function page() {
                       </div>
                       <div className="col-md-6 col-lg-3">
                         <div className="event-img position-relative">
-                          <img
+                          <Image
                             className="img-fluid rounded w-100"
                             src="img/event-8.jpg"
                             alt=""
