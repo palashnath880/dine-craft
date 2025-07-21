@@ -1,3 +1,10 @@
 @import "tailwindcss";
-@import "../assets/style.css";
-@import "../assets/bootstrap.min.css";
+/* @import "../assets/style.css"; */
+/* @import "../assets/bootstrap.min.css"; */
+
+@theme {
+  --font-playball: "Playball", cursive,
+  --font-display: "Montserrat", sans-serif;
+  --color-primary: #d4a762;
+  --color-secondary: #323949;
+}

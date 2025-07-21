@@ -1,41 +1,64 @@
+import Link from "next/link";
 import React from "react";
+import SearchModal from "./SearchModal";
 
 export default function Header() {
+  const menus = [
+    {
+      label: "Home",
+      href: "/",
+    },
+    {
+      label: "About",
+      href: "/about",
+    },
+    {
+      label: "Services",
+      href: "/service",
+    },
+    {
+      label: "Events",
+      href: "/events",
+    },
+    {
+      label: "Our Menu",
+      href: "/our-menu",
+    },
+    {
+      label: "Contact",
+      href: "/contact",
+    },
+  ];
+
   return (
-    <div className="container-fluid nav-bar">
-      <div className="container">
-        <nav className="navbar navbar-light navbar-expand-lg py-4">
-          <a href="index.html" className="navbar-brand">
-            <h1 className="text-primary fw-bold mb-0">
-              Cater<span className="text-dark">Serv</span>
+    <header>
+      <div className="container mx-auto">
+        <nav className="flex items-center justify-between py-4">
+          {/* branding */}
+          <Link href={"/"} className="w-3/12">
+            <h1 className="text-primary font-bold !text-4xl font-playball">
+              Dine<span className="text-secondary">Craft</span>
             </h1>
-          </a>
-          <button
-            className="navbar-toggler py-2 px-3"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
+          </Link>
+
+          {/* menu button */}
+          <button className="hidden py-2 px-3" type="button">
             <span className="fa fa-bars text-primary"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav mx-auto">
-              <a href="index.html" className="nav-item nav-link active">
-                Home
-              </a>
-              <a href="about.html" className="nav-item nav-link">
-                About
-              </a>
-              <a href="service.html" className="nav-item nav-link">
-                Services
-              </a>
-              <a href="event.html" className="nav-item nav-link">
-                Events
-              </a>
-              <a href="menu.html" className="nav-item nav-link">
-                Menu
-              </a>
-              <div className="nav-item dropdown">
+
+          {/* menus start */}
+          <div className="flex gap-7 flex-1 justify-center">
+            {menus.map(({ href, label }, index) => (
+              <Link
+                href={href}
+                key={index}
+                className="font-semibold text-gray-500 hover:text-primary transition duration-300"
+              >
+                {label}
+              </Link>
+            ))}
+
+            {/* <div className="nav-item dropdown">
                 <a
                   href="#"
                   className="nav-link dropdown-toggle"
@@ -60,27 +83,24 @@ export default function Header() {
                     404 Page
                   </a>
                 </div>
-              </div>
-              <a href="contact.html" className="nav-item nav-link">
-                Contact
-              </a>
-            </div>
-            <button
-              className="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex"
-              data-bs-toggle="modal"
-              data-bs-target="#searchModal"
-            >
-              <i className="fas fa-search"></i>
-            </button>
-            <a
-              href=""
-              className="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill"
+              </div> */}
+          </div>
+          {/* menus end */}
+
+          <div className="flex items-center justify-end-safe gap-3 w-3/12">
+            {/* search modal*/}
+            <SearchModal />
+
+            {/* booking button */}
+            <Link
+              href="/booking"
+              className="py-2.5 px-6 bg-primary text-secondary font-semibold rounded-full"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }
