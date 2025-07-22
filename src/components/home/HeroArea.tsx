@@ -1,38 +1,51 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function HeroArea() {
   return (
-    <div className="container-fluid bg-light py-6 my-6 mt-0">
+    <div className="bg-gray-50 py-6">
       <div className="container">
-        <div className="row g-5 align-items-center">
-          <div className="col-lg-7 col-md-12">
-            <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">
-              Welcome to CaterServ
-            </small>
-            <h1 className="display-1 mb-4 animated bounceInDown">
-              Book <span className="text-primary">Cater</span>Serv For Your
-              Dream Event
-            </h1>
-            <a
-              href=""
-              className="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft"
-            >
-              Book Now
-            </a>
-            <a
-              href=""
-              className="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft"
-            >
-              Know More
-            </a>
+        <div className="grid grid-cols-12 items-center">
+          <div className="col-span-7 max-md:col-span-12">
+            <div className="flex flex-col items-start">
+              <small className="text-base font-bold text-secondary border border-primary uppercase px-4 py-1 rounded-full">
+                Welcome to DineCraft
+              </small>
+
+              <h1 className="text-7xl font-bold text-secondary font-playball leading-24">
+                Book <span className="text-primary">Dine</span>Craft <br /> For
+                Your Dream Event
+              </h1>
+
+              <div className="flex items-center gap-5 mt-10">
+                <Link
+                  href=""
+                  className="bg-primary text-secondary rounded-full py-3 px-8 font-medium"
+                >
+                  Book Now
+                </Link>
+                <Link
+                  href=""
+                  className="bg-primary text-secondary rounded-full py-3 px-8 font-medium"
+                >
+                  Know More
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="col-lg-5 col-md-12">
-            <Image
-              src="img/hero.png"
-              className="img-fluid rounded animated zoomIn"
-              alt=""
-            />
+
+          <div className="col-span-5 max-md:col-span-12">
+            <div className="w-full h-auto px-5">
+              <Image
+                width={200}
+                height={200}
+                draggable={false}
+                src="/img/hero.png"
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

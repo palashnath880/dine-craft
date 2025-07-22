@@ -9,6 +9,10 @@
   --color-secondary: #323949;
 }
 
+body{
+  color: var(--color-secondary);
+}
+
 .container{
   @apply container px-5 mx-auto
 }

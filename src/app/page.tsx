@@ -13,9 +13,7 @@ import React from "react";
 export default function page() {
   return (
     <>
-      {/* Hero Start */}
-      {/* <HeroArea /> */}
-      {/* Hero End */}
+      <HeroArea />
 
       {/* About area */}
       {/* <AboutArea /> */}
