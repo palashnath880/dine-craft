@@ -2,115 +2,69 @@ import Image from "next/image";
 import React from "react";
 
 export default function EventsArea() {
+  const tabs = [
+    {
+      label: "All Events",
+    },
+    {
+      label: "Wedding",
+    },
+    {
+      label: "Corporate",
+    },
+    {
+      label: "Cocktail",
+    },
+    {
+      label: "Buffet",
+    },
+  ];
+
   return (
-    <div className="container-fluid event py-6">
+    <section className="py-16">
       <div className="container">
-        <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
+        <div className="flex flex-col items-center gap-5">
+          <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
             Latest Events
           </small>
-          <h1 className="display-5 mb-5">
+          <h1 className="font-bold font-playball text-5xl">
             Our Social & Professional Events Gallery
           </h1>
         </div>
-        <div className="tab-class text-center">
-          <ul
-            className="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp"
-            data-wow-delay="0.1s"
-          >
-            <li className="nav-item p-2">
-              <a
-                className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active"
-                data-bs-toggle="pill"
-                href="#tab-1"
+
+        <div className="mt-16 flex flex-col gap-10">
+          {/* tab buttons */}
+          <ul className="flex justify-center gap-4 items-center">
+            {tabs.map(({ label }, index) => (
+              <li
+                className="btn-primary border border-primary !py-1.5"
+                key={index}
               >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  All Events
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex py-2 mx-2 border border-primary bg-light rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-2"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Wedding
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-3"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Corporate
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-4"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Cocktail
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-5"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Buffet
-                </span>
-              </a>
-            </li>
+                {label}
+              </li>
+            ))}
           </ul>
 
-          <div className="tab-content">
-            {[...Array(5)].map((_, tabIndex) => (
+          {/* tab content */}
+          <div className="grid grid-cols-12 gap-5">
+            {[...Array(8)].map((_, index) => (
               <div
-                key={tabIndex}
-                id={`tab-${tabIndex}`}
-                className="tab-pane fade show p-0 active"
+                className="col-span-12 md:col-span-6 lg:col-span-3 cursor-pointer group"
+                key={index}
               >
-                <div className="row g-4">
-                  <div className="col-lg-12">
-                    <div className="row g-4">
-                      {[...Array(5)].map((_, index) => (
-                        <div
-                          className="col-md-6 col-lg-3 wow bounceInUp"
-                          data-wow-delay="0.1s"
-                          key={index}
-                        >
-                          <div className="event-img position-relative">
-                            <Image
-                              className="img-fluid rounded w-100"
-                              src="img/event-1.jpg"
-                              alt=""
-                            />
-                            <div className="event-overlay d-flex flex-column p-4">
-                              <h4 className="me-auto">Wedding</h4>
-                              <a
-                                href="img/event-1.jpg"
-                                data-lightbox="event-1"
-                                className="my-auto"
-                              >
-                                <i className="fas fa-search-plus text-dark fa-2x"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden">
+                  <Image
+                    draggable={false}
+                    width={200}
+                    height={200}
+                    className="w-full h-full object-cover"
+                    src={`/img/event-${index + 1}.jpg`}
+                    alt=""
+                  />
+                  <div className="absolute top-0 left-0 w-full h-full bg-[#00000055] grid place-items-center invisible opacity-0 group-hover:visible group-hover:opacity-100 transition duration-300">
+                    <h4 className="text-2xl font-semibold text-white">
+                      Wedding
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -118,6 +72,6 @@ export default function EventsArea() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

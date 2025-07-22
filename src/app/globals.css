@@ -19,7 +19,7 @@ body{
 
 /** my primary button */
 .btn-primary{
-  @apply bg-primary text-secondary rounded-full py-3 px-8 font-medium
+  @apply bg-primary text-secondary rounded-full py-3 px-8 font-medium cursor-pointer
 }
 
 /** my modal */

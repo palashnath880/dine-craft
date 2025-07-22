@@ -19,11 +19,9 @@ export default function page() {
 
       <FactArea />
 
-      {/* Service area */}
-      {/* <ServiceArea /> */}
+      <ServiceArea />
 
-      {/* Events area  */}
-      {/* <EventsArea /> */}
+      <EventsArea />
 
       {/* Menu area  */}
       {/* <MenuArea /> */}

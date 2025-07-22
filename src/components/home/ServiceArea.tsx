@@ -1,194 +1,98 @@
+import Link from "next/link";
 import React from "react";
+import { IconType } from "react-icons";
+import { FaHamburger, FaWalking } from "react-icons/fa";
+import {
+  FaCheese,
+  FaHotdog,
+  FaPizzaSlice,
+  FaUtensils,
+  FaWheelchair,
+  FaWineGlass,
+} from "react-icons/fa6";
+
+type Service = {
+  Icon: IconType;
+  title: string;
+  content: string;
+};
 
 export default function ServiceArea() {
+  const services: Service[] = [
+    {
+      title: "Wedding Services",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaCheese,
+    },
+    {
+      title: "Corporate Catering",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaPizzaSlice,
+    },
+    {
+      title: "Cocktail Reception",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaHotdog,
+    },
+    {
+      title: "Bento Catering",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaHamburger,
+    },
+    {
+      title: "Pub Party",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaWineGlass,
+    },
+    {
+      title: "Home Delivery",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaWalking,
+    },
+    {
+      title: "Sit-down Catering",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaWheelchair,
+    },
+    {
+      title: "Buffet Catering",
+      content: "Contrary to popular belief, ipsum is not simply random.",
+      Icon: FaUtensils,
+    },
+  ];
+
   return (
-    <div className="container-fluid service py-6">
+    <section className="bg-gray-50 py-20">
       <div className="container">
-        <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
+        <div className="flex flex-col items-center gap-5">
+          <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
             Our Services
           </small>
-          <h1 className="display-5 mb-5">What We Offer</h1>
+          <h1 className="font-bold font-playball text-5xl">What We Offer</h1>
         </div>
-        <div className="row g-4">
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.1s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-cheese fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Wedding Services</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
+
+        <div className="mt-10 grid grid-cols-12 gap-5">
+          {services.map(({ Icon, content, title }, index) => (
+            <div
+              key={index}
+              className="xl:col-span-3 md:col-span-6 col-span-12"
+            >
+              <div className="h-full rounded-lg bg-white shadow-md cursor-pointer hover:shadow-none transition duration-300">
+                <div className="flex flex-col items-center justify-center py-10 px-5 gap-5">
+                  <div className="flex flex-col gap-2.5 items-center text-center flex-1">
+                    <Icon className="text-primary text-8xl" />
+                    <h4 className="text-2xl font-semibold mt-2">{title}</h4>
+                    <p className="text-gray-400">{content}</p>
+                  </div>
+                  <Link href="#" className="btn-primary">
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.3s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-pizza-slice fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Corporate Catering</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.5s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-hotdog fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Cocktail Reception</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.7s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-hamburger fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Bento Catering</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.1s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-wine-glass-alt fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Pub Party</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.3s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-walking fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Home Delivery</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.5s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-wheelchair fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Sit-down Catering</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 col-sm-12 wow bounceInUp"
-            data-wow-delay="0.7s"
-          >
-            <div className="bg-light rounded service-item">
-              <div className="service-content d-flex align-items-center justify-content-center p-4">
-                <div className="service-content-icon text-center">
-                  <i className="fas fa-utensils fa-7x text-primary mb-4"></i>
-                  <h4 className="mb-3">Buffet Catering</h4>
-                  <p className="mb-4">
-                    Contrary to popular belief, ipsum is not simply random.
-                  </p>
-                  <a
-                    href="#"
-                    className="btn btn-primary px-4 py-2 rounded-pill"
-                  >
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
