@@ -1,180 +1,239 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { FaArrowUp, FaCopyright, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaCheck,
+  FaClock,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaPhone,
+  FaTwitter,
+} from "react-icons/fa6";
 
 export default function Footer() {
   return (
     <>
-      <div
-        className="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp"
-        data-wow-delay="0.1s"
+      <footer
+        style={{
+          backgroundImage:
+            "linear-gradient(#ffffffdb, #ffffffdb), url(/img/food-vector-art.jpg)",
+        }}
       >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="footer-item">
-                <h1 className="text-primary">
-                  Cater<span className="text-dark">Serv</span>
-                </h1>
-                <p className="lh-lg mb-4">
+        <div className="container mx-auto py-10">
+          <div className="grid grid-cols-12 gap-5">
+            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+              <div className="flex flex-col gap-4 items-start">
+                <Link href={"/"}>
+                  <h1 className="text-primary font-playball text-4xl font-bold">
+                    Dine<span className="text-secondary">Craft</span>
+                  </h1>
+                </Link>
+                <p className="text-base text-gray-500">
                   There cursus massa at urnaaculis estieSed aliquamellus vitae
                   ultrs condmentum leo massamollis its estiegittis miristum.
                 </p>
-                <div className="footer-icon d-flex">
-                  <a
-                    className="btn btn-primary btn-sm-square me-2 rounded-circle"
-                    href=""
+                <div className="flex gap-4">
+                  <Link
+                    className="w-10 h-10 rounded-full grid place-items-center bg-primary text-secondary"
+                    href="https://facebook.com"
                   >
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square me-2 rounded-circle"
-                    href=""
+                    <FaFacebookF />
+                  </Link>
+                  <Link
+                    className="w-10 h-10 rounded-full grid place-items-center bg-primary text-secondary"
+                    href="https://twitter.com"
                   >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a
-                    href="#"
-                    className="btn btn-primary btn-sm-square me-2 rounded-circle"
+                    <FaTwitter />
+                  </Link>
+                  <Link
+                    href="https://instagram.com"
+                    className="w-10 h-10 rounded-full grid place-items-center bg-primary text-secondary"
                   >
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a
-                    href="#"
-                    className="btn btn-primary btn-sm-square rounded-circle"
+                    <FaInstagram />
+                  </Link>
+                  <Link
+                    href="https://linkedin.com"
+                    className="w-10 h-10 rounded-full grid place-items-center bg-primary text-secondary"
                   >
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
+                    <FaLinkedin />
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="footer-item">
-                <h4 className="mb-4">Special Facilities</h4>
-                <div className="d-flex flex-column align-items-start">
-                  <a className="text-body mb-3" href="">
-                    <i className="fa fa-check text-primary me-2"></i>Cheese
-                    Burger
-                  </a>
-                  <a className="text-body mb-3" href="">
-                    <i className="fa fa-check text-primary me-2"></i>Sandwich
-                  </a>
-                  <a className="text-body mb-3" href="">
-                    <i className="fa fa-check text-primary me-2"></i>Panner
-                    Burger
-                  </a>
-                  <a className="text-body mb-3" href="">
-                    <i className="fa fa-check text-primary me-2"></i>Special
-                    Sweets
-                  </a>
+
+            {/* Special Facilities */}
+            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+              <div className="flex flex-col gap-4 items-start">
+                <h4 className="text-xl font-semibold">Special Facilities</h4>
+                <div className="flex flex-col gap-2.5">
+                  <Link
+                    className="flex items-center gap-2 text-gray-500 font-medium"
+                    href=""
+                  >
+                    <FaCheck className="text-primary" />
+                    Cheese Burger
+                  </Link>
+                  <Link
+                    className="flex items-center gap-2 text-gray-500 font-medium"
+                    href=""
+                  >
+                    <FaCheck className="text-primary" />
+                    Sandwich
+                  </Link>
+                  <Link
+                    className="flex items-center gap-2 text-gray-500 font-medium"
+                    href=""
+                  >
+                    <FaCheck className="text-primary" />
+                    Panner Burger
+                  </Link>
+                  <Link
+                    className="flex items-center gap-2 text-gray-500 font-medium"
+                    href=""
+                  >
+                    <FaCheck className="text-primary" />
+                    Special Sweets
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="footer-item">
-                <h4 className="mb-4">Contact Us</h4>
-                <div className="d-flex flex-column align-items-start">
-                  <p>
-                    <i className="fa fa-map-marker-alt text-primary me-2"></i>{" "}
-                    123 Street, New York, USA
+
+            {/* contact us */}
+            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+              <div className="flex flex-col gap-4 items-start">
+                <h4 className="text-xl font-semibold">Contact Us</h4>
+                <div className="flex flex-col gap-2.5">
+                  <p className="flex gap-2 text-gray-500 font-medium">
+                    <FaMapMarkerAlt className="text-primary text-lg" /> 123
+                    Street, New York, USA
                   </p>
-                  <p>
-                    <i className="fa fa-phone-alt text-primary me-2"></i> (+012)
-                    3456 7890 123
+                  <p className="flex gap-2 text-gray-500 font-medium">
+                    <FaPhone className="text-primary text-lg" /> (+012) 3456
+                    7890 123
                   </p>
-                  <p>
-                    <i className="fas fa-envelope text-primary me-2"></i>
+                  <p className="flex gap-2 text-gray-500 font-medium">
+                    <FaEnvelope className="text-primary text-lg" />
                     info@example.com
                   </p>
-                  <p>
-                    <i className="fa fa-clock text-primary me-2"></i> 26/7 Hours
+                  <p className="flex gap-2 text-gray-500 font-medium">
+                    <FaClock className="text-primary text-lg" /> 26/7 Hours
                     Service
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="footer-item">
-                <h4 className="mb-4">Social Gallery</h4>
-                <div className="row g-2">
-                  <div className="col-4">
-                    {/* <Image
-                      src="img/menu-01.jpg"
-                      className="img-fluid rounded-circle border border-primary p-2"
+
+            {/* social gallery */}
+            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+              <div className="flex flex-col gap-4 items-start">
+                <h4 className="text-xl font-semibold">Social Gallery</h4>
+                <div className="grid grid-cols-3 gap-3 w-full">
+                  <div className="col-span-1">
+                    <Image
+                      width={120}
+                      height={120}
+                      draggable={false}
+                      src="/img/menu-01.jpg"
+                      className="w-full h-full object-cover rounded-full border-4 border-primary"
                       alt=""
-                    /> */}
+                    />
                   </div>
-                  <div className="col-4">
-                    {/* <Image
-                      src="img/menu-02.jpg"
-                      className="img-fluid rounded-circle border border-primary p-2"
+                  <div className="col-span-1">
+                    <Image
+                      width={120}
+                      height={120}
+                      draggable={false}
+                      src="/img/menu-02.jpg"
+                      className="w-full h-full object-cover rounded-full border-4 border-primary"
                       alt=""
-                    /> */}
+                    />
                   </div>
-                  <div className="col-4">
-                    {/* <Image
-                      src="img/menu-03.jpg"
-                      className="img-fluid rounded-circle border border-primary p-2"
+                  <div className="col-span-1">
+                    <Image
+                      width={120}
+                      height={120}
+                      draggable={false}
+                      src="/img/menu-03.jpg"
+                      className="w-full h-full object-cover rounded-full border-4 border-primary"
                       alt=""
-                    /> */}
+                    />
                   </div>
-                  <div className="col-4">
-                    {/* <Image
-                      src="img/menu-04.jpg"
-                      className="img-fluid rounded-circle border border-primary p-2"
+                  <div className="col-span-1">
+                    <Image
+                      width={120}
+                      height={120}
+                      draggable={false}
+                      src="/img/menu-04.jpg"
+                      className="w-full h-full object-cover rounded-full border-4 border-primary"
                       alt=""
-                    /> */}
+                    />
                   </div>
-                  <div className="col-4">
-                    {/* <Image
-                      src="img/menu-05.jpg"
-                      className="img-fluid rounded-circle border border-primary p-2"
+                  <div className="col-span-1">
+                    <Image
+                      width={120}
+                      height={120}
+                      draggable={false}
+                      src="/img/menu-05.jpg"
+                      className="w-full h-full object-cover rounded-full border-4 border-primary"
                       alt=""
-                    /> */}
+                    />
                   </div>
-                  <div className="col-4">
-                    {/* <Image
-                      src="img/menu-06.jpg"
-                      className="img-fluid rounded-circle border border-primary p-2"
+                  <div className="col-span-1">
+                    <Image
+                      width={120}
+                      height={120}
+                      draggable={false}
+                      src="/img/menu-06.jpg"
+                      className="w-full h-full object-cover rounded-full border-4 border-primary"
                       alt=""
-                    /> */}
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* copyright area */}
-      <div className="container-fluid copyright bg-dark py-4">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              <span className="text-light">
-                <a href="#">
-                  <i className="fas fa-copyright text-light me-2"></i>Your Site
-                  Name
-                </a>
-                , All right reserved.
-              </span>
-            </div>
-            <div className="col-md-6 my-auto text-center text-md-end text-white">
-              Designed By
-              <a className="border-bottom" href="https://htmlcodex.com">
-                HTML Codex
-              </a>
+        {/* copyright area */}
+        <div className="bg-secondary">
+          <div className="container">
+            <div className="grid grid-cols-12 gap-5 py-5">
+              <div className="col-span-6 text-left ">
+                <span className="text-gray-100 flex items-center">
+                  <Link
+                    href={"/"}
+                    className="flex gap-2 items-center underline"
+                  >
+                    <FaCopyright />
+                    DineCraft
+                  </Link>
+                  , All right reserved.
+                </span>
+              </div>
+              <div className="col-span-6 text-right">
+                <span className="text-gray-100 flex items-center gap-1.5 justify-end">
+                  Designed By
+                  <a
+                    className="underline"
+                    href="https://palashnath.netlify.app"
+                    target="_blank"
+                  >
+                    Palash Nath
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
 
       {/* Back to Top Button */}
-      <a
-        href="#"
-        className="btn btn-md-square btn-primary rounded-circle back-to-top"
-      >
-        <i className="fa fa-arrow-up"></i>
-      </a>
+      <button className="bg-primary w-10 h-10 grid place-items-center rounded-full cursor-pointer fixed bottom-8 right-8">
+        <FaArrowUp />
+      </button>
     </>
   );
 }

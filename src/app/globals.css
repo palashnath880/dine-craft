@@ -8,3 +8,7 @@
   --color-primary: #d4a762;
   --color-secondary: #323949;
 }
+
+.container{
+  @apply container px-5 mx-auto
+}
