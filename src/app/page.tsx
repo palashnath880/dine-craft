@@ -15,11 +15,9 @@ export default function page() {
     <>
       <HeroArea />
 
-      {/* About area */}
-      {/* <AboutArea /> */}
+      <AboutArea />
 
-      {/* Fact Start*/}
-      {/* <FactArea /> */}
+      <FactArea />
 
       {/* Service area */}
       {/* <ServiceArea /> */}

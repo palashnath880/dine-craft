@@ -1,52 +1,76 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { FaArrowRight, FaShare } from "react-icons/fa6";
 
 export default function AboutArea() {
   return (
-    <div className="container-fluid py-6">
+    <section className="py-20">
       <div className="container">
-        <div className="row g-5 align-items-center">
-          <div className="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
-            <Image src="img/about.jpg" className="img-fluid rounded" alt="" />
+        <div className="grid grid-cols-12 gap-20 items-center">
+          <div className="col-span-5">
+            <Image
+              width={400}
+              height={400}
+              draggable={false}
+              src="/img/about.jpg"
+              className="w-full h-full object-cover rounded-lg"
+              alt=""
+            />
           </div>
-          <div className="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
-            <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
-              About Us
-            </small>
-            <h1 className="display-5 mb-4">
-              Trusted By 200 + satisfied clients
-            </h1>
-            <p className="mb-4">
-              Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-              labore eit esdioilore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor iesdein reprehendeerit in
-              voluptate velit esse cillum dolore.
-            </p>
-            <div className="row g-4 text-dark mb-5">
-              <div className="col-sm-6">
-                <i className="fas fa-share text-primary me-2"></i>Fresh and Fast
-                food Delivery
+
+          <div className="col-span-7">
+            <div className="flex flex-col items-start gap-5">
+              <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
+                About Us
+              </small>
+              <h1 className="font-playball text-5xl">
+                Trusted By 200 + satisfied clients
+              </h1>
+              <p className="text-gray-500">
+                Consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor iesdein
+                reprehendeerit in voluptate velit esse cillum dolore.
+              </p>
+
+              <div className="grid grid-cols-2 w-full space-x-5 space-y-6">
+                <div className="col-span-1">
+                  <p className="font-semibold flex gap-2 items-center">
+                    <FaShare className="text-primary" />
+                    Fresh and Fast food Delivery
+                  </p>
+                </div>
+                <div className="col-span-1">
+                  <p className="font-semibold flex gap-2 items-center">
+                    <FaShare className="text-primary" />
+                    24/7 Customer Support
+                  </p>
+                </div>
+                <div className="col-span-1">
+                  <p className="font-semibold flex gap-2 items-center">
+                    <FaShare className="text-primary" />
+                    Easy Customization Options
+                  </p>
+                </div>
+                <div className="col-span-1">
+                  <p className="font-semibold flex gap-2 items-center">
+                    <FaShare className="text-primary" />
+                    Delicious Deals for Delicious Meals
+                  </p>
+                </div>
               </div>
-              <div className="col-sm-6">
-                <i className="fas fa-share text-primary me-2"></i>24/7 Customer
-                Support
-              </div>
-              <div className="col-sm-6">
-                <i className="fas fa-share text-primary me-2"></i>Easy
-                Customization Options
-              </div>
-              <div className="col-sm-6">
-                <i className="fas fa-share text-primary me-2"></i>Delicious
-                Deals for Delicious Meals
-              </div>
+              <Link
+                href="/about"
+                className="btn-primary flex items-center gap-2"
+              >
+                About Us <FaArrowRight />
+              </Link>
             </div>
-            <a href="" className="btn btn-primary py-3 px-5 rounded-pill">
-              About Us<i className="fas fa-arrow-right ps-2"></i>
-            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

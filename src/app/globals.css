@@ -16,3 +16,13 @@ body{
 .container{
   @apply container px-5 mx-auto
 }
+
+/** my primary button */
+.btn-primary{
+  @apply bg-primary text-secondary rounded-full py-3 px-8 font-medium
+}
+
+/** my modal */
+.modal{
+  @apply fixed top-0 left-0 w-full h-screen transition duration-300 z-[10000]
+}
