@@ -1,268 +1,120 @@
 import Image from "next/image";
 import React from "react";
+import SectionHeading from "./SectionHeading";
+
+type MenuItem = {
+  img: string;
+  name: string;
+};
 
 export default function MenuArea() {
+  const menuItems: MenuItem[] = [
+    {
+      img: "/img/menu-01.jpg",
+      name: "Paneer",
+    },
+    {
+      img: "/img/menu-02.jpg",
+      name: "Sweet Potato",
+    },
+    {
+      img: "/img/menu-03.jpg",
+      name: "Sabudana Tikki",
+    },
+    {
+      img: "/img/menu-04.jpg",
+      name: "Pizza",
+    },
+    {
+      img: "/img/menu-05.jpg",
+      name: "Bacon",
+    },
+    {
+      img: "/img/menu-06.jpg",
+      name: "Chicken",
+    },
+    {
+      img: "/img/menu-07.jpg",
+      name: "Blooming",
+    },
+    {
+      img: "/img/menu-08.jpg",
+      name: "Sweet",
+    },
+  ];
+
+  const tabs = [
+    {
+      label: "Starter",
+    },
+    {
+      label: "Main Course",
+    },
+    {
+      label: "Drinks",
+    },
+    {
+      label: "Offers",
+    },
+    {
+      label: "Our Special",
+    },
+  ];
+
   return (
-    <div className="container-fluid menu bg-light py-6 my-6">
+    <section className="py-16 bg-gray-50">
       <div className="container">
-        <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
-            Our Menu
-          </small>
-          <h1 className="display-5 mb-5">Most Popular Food in the World</h1>
-        </div>
-        <div className="tab-class text-center">
-          <ul
-            className="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp"
-            data-wow-delay="0.1s"
-          >
-            <li className="nav-item p-2">
-              <a
-                className="d-flex py-2 mx-2 border border-primary bg-white rounded-pill active"
-                data-bs-toggle="pill"
-                href="#tab-6"
+        <SectionHeading
+          title="Our Menu"
+          subtitle="Most Popular Food in the World"
+        />
+
+        <div className="mt-10 flex flex-col gap-10">
+          {/* tab buttons */}
+          <ul className="flex justify-center gap-4 items-center">
+            {tabs.map(({ label }, index) => (
+              <li
+                className="btn-primary border border-primary !py-1.5"
+                key={index}
               >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Starter
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex py-2 mx-2 border border-primary bg-white rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-7"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Main Course
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex py-2 mx-2 border border-primary bg-white rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-8"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Drinks
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex py-2 mx-2 border border-primary bg-white rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-9"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Offers
-                </span>
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a
-                className="d-flex py-2 mx-2 border border-primary bg-white rounded-pill"
-                data-bs-toggle="pill"
-                href="#tab-10"
-              >
-                <span className="text-dark" style={{ width: "150px" }}>
-                  Our Special
-                </span>
-              </a>
-            </li>
+                {label}
+              </li>
+            ))}
           </ul>
 
           <div className="tab-content">
-            {[...Array(5)].map((_, tabIndex) => (
-              <div
-                key={tabIndex}
-                id="tab-6"
-                className="tab-pane fade show p-0 active"
-              >
-                <div className="row g-4">
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.1s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-01.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Paneer</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
+            <div className="grid grid-cols-12 gap-x-14 gap-y-10">
+              {menuItems.map(({ img, name }, index) => (
+                <div className="col-span-6" key={index}>
+                  <div className="flex items-center gap-5">
+                    <Image
+                      draggable={false}
+                      width={200}
+                      height={200}
+                      className="rounded-full w-40 object-cover"
+                      src={img}
+                      alt={name}
+                    />
+                    <div className="flex-1 flex flex-col gap-3">
+                      <div className="flex justify-between items-center">
+                        <h4 className="text-2xl font-semibold">{name}</h4>
+                        <h4 className="text-primary font-playball text-2xl font-bold">
+                          $90
+                        </h4>
                       </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.2s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-02.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Sweet Potato</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.3s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Sabudana Tikki</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.4s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-04.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Pizza</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.5s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-05.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Bacon</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.6s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-06.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Chicken</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.7s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Blooming</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 wow bounceInUp"
-                    data-wow-delay="0.8s"
-                  >
-                    <div className="menu-item d-flex align-items-center">
-                      <Image
-                        className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-08.jpg"
-                        alt=""
-                      />
-                      <div className="w-100 d-flex flex-column text-start ps-4">
-                        <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                          <h4>Sweet</h4>
-                          <h4 className="text-primary">$90</h4>
-                        </div>
-                        <p className="mb-0">
-                          Consectetur adipiscing elit sed dwso eiusmod tempor
-                          incididunt ut labore.
-                        </p>
-                      </div>
+                      <div className="h-[1px] bg-primary" />
+                      <p className="text-left text-gray-400">
+                        Consectetur adipiscing elit sed dwso eiusmod tempor
+                        incididunt ut labore.
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

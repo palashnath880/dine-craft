@@ -23,8 +23,7 @@ export default function page() {
 
       <EventsArea />
 
-      {/* Menu area  */}
-      {/* <MenuArea /> */}
+      <MenuArea />
 
       {/* Booking area */}
       {/* <BookingArea /> */}
