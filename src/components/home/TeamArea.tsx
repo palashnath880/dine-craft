@@ -1,187 +1,32 @@
-import Image from "next/image";
 import React from "react";
+import SectionHeading from "./SectionHeading";
+import TeamCard from "../shared/TeamCard";
+import Link from "next/link";
 
 export default function TeamArea() {
   return (
-    <div className="container-fluid team py-6">
+    <section className="bg-gray-50 py-16">
       <div className="container">
-        <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
-            Our Team
-          </small>
-          <h1 className="display-5 mb-5">We have experienced chef Team</h1>
+        <SectionHeading
+          title="Our Team"
+          subtitle="We have experienced chef Team"
+        />
+        <div className="grid grid-cols-12 gap-5 mt-16">
+          {[...Array(4)].map((_, index) => (
+            <TeamCard
+              key={index}
+              name="Jhon Henry"
+              imgURL={`/img/team-${index + 1}.webp`}
+              title="Decoration Chef"
+            />
+          ))}
         </div>
-        <div className="row g-4">
-          <div
-            className="col-lg-3 col-md-6 wow bounceInUp"
-            data-wow-delay="0.1s"
-          >
-            <div className="team-item rounded">
-              <Image
-                className="img-fluid rounded-top"
-                src="img/team-1.jpg"
-                alt=""
-              />
-              <div className="team-content text-center py-3 bg-dark rounded-bottom">
-                <h4 className="text-primary">Henry</h4>
-                <p className="text-white mb-0">Decoration Chef</p>
-              </div>
-              <div className="team-icon d-flex flex-column justify-content-center m-4">
-                <a
-                  className="share btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fas fa-share-alt"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 wow bounceInUp"
-            data-wow-delay="0.3s"
-          >
-            <div className="team-item rounded">
-              <Image
-                className="img-fluid rounded-top"
-                src="img/team-2.jpg"
-                alt=""
-              />
-              <div className="team-content text-center py-3 bg-dark rounded-bottom">
-                <h4 className="text-primary">Jemes Born</h4>
-                <p className="text-white mb-0">Executive Chef</p>
-              </div>
-              <div className="team-icon d-flex flex-column justify-content-center m-4">
-                <a
-                  className="share btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fas fa-share-alt"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 wow bounceInUp"
-            data-wow-delay="0.5s"
-          >
-            <div className="team-item rounded">
-              <Image
-                className="img-fluid rounded-top"
-                src="img/team-3.jpg"
-                alt=""
-              />
-              <div className="team-content text-center py-3 bg-dark rounded-bottom">
-                <h4 className="text-primary">Martin Hill</h4>
-                <p className="text-white mb-0">Kitchen Porter</p>
-              </div>
-              <div className="team-icon d-flex flex-column justify-content-center m-4">
-                <a
-                  className="share btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fas fa-share-alt"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 wow bounceInUp"
-            data-wow-delay="0.7s"
-          >
-            <div className="team-item rounded">
-              <Image
-                className="img-fluid rounded-top"
-                src="img/team-4.jpg"
-                alt=""
-              />
-              <div className="team-content text-center py-3 bg-dark rounded-bottom">
-                <h4 className="text-primary">Adam Smith</h4>
-                <p className="text-white mb-0">Head Chef</p>
-              </div>
-              <div className="team-icon d-flex flex-column justify-content-center m-4">
-                <a
-                  className="share btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fas fa-share-alt"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a
-                  className="share-link btn btn-primary btn-md-square rounded-circle mb-2"
-                  href=""
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div className="mt-16 flex justify-center">
+          <Link href={"/our-team"} className="btn-primary">
+            More
+          </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
