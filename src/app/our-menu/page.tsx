@@ -1,9 +1,12 @@
+import PageHeader from "@/components/shared/PageHeader";
 import Image from "next/image";
 import React from "react";
 
 export default function page() {
   return (
-    <div>
+    <>
+      <PageHeader name="Our Menu" bgImg="/img/menu-items.webp" />
+
       <div className="container-fluid bg-light py-6 my-6 mt-0">
         <div className="container text-center animated bounceInDown">
           <h1 className="display-1 mb-4">Menu</h1>
@@ -99,8 +102,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-01.jpg"
+                        src="/img/menu-01.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -121,8 +126,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-02.jpg"
+                        src="/img/menu-02.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -143,8 +150,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
+                        src="/img/menu-03.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -165,8 +174,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-04.jpg"
+                        src="/img/menu-04.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -187,8 +198,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-05.jpg"
+                        src="/img/menu-05.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -209,8 +222,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-06.jpg"
+                        src="/img/menu-06.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -231,8 +246,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -253,8 +270,10 @@ export default function page() {
                   >
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-08.jpg"
+                        src="/img/menu-08.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -276,8 +295,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-01.jpg"
+                        src="/img/menu-01.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -295,8 +316,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
+                        src="/img/menu-03.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -314,8 +337,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-05.jpg"
+                        src="/img/menu-05.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -333,8 +358,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -352,8 +379,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-08.jpg"
+                        src="/img/menu-08.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -371,8 +400,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
+                        src="/img/menu-03.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -390,8 +421,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-02.jpg"
+                        src="/img/menu-02.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -409,8 +442,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-01.jpg"
+                        src="/img/menu-01.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -432,8 +467,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-01.jpg"
+                        src="/img/menu-01.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -451,8 +488,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-02.jpg"
+                        src="/img/menu-02.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -470,8 +509,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
+                        src="/img/menu-03.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -489,8 +530,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-04.jpg"
+                        src="/img/menu-04.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -508,8 +551,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-05.jpg"
+                        src="/img/menu-05.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -527,8 +572,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-06.jpg"
+                        src="/img/menu-06.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -546,8 +593,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -565,8 +614,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-08.jpg"
+                        src="/img/menu-08.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -588,8 +639,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-06.jpg"
+                        src="/img/menu-06.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -607,8 +660,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -626,8 +681,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-09.jpg"
+                        src="/img/menu-09.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -645,8 +702,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-02.jpg"
+                        src="/img/menu-02.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -664,8 +723,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
+                        src="/img/menu-03.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -683,8 +744,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-05.jpg"
+                        src="/img/menu-05.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -702,8 +765,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -721,8 +786,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-09.jpg"
+                        src="/img/menu-09.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -744,8 +811,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-06.jpg"
+                        src="/img/menu-06.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -763,8 +832,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -782,8 +853,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-09.jpg"
+                        src="/img/menu-09.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -801,8 +874,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-02.jpg"
+                        src="/img/menu-02.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -820,8 +895,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-03.jpg"
+                        src="/img/menu-03.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -839,8 +916,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-05.jpg"
+                        src="/img/menu-05.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -858,8 +937,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-07.jpg"
+                        src="/img/menu-07.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -877,8 +958,10 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="menu-item d-flex align-items-center">
                       <Image
+                        width={200}
+                        height={200}
                         className="flex-shrink-0 img-fluid rounded-circle"
-                        src="img/menu-09.jpg"
+                        src="/img/menu-09.jpg"
                         alt=""
                       />
                       <div className="w-100 d-flex flex-column text-start ps-4">
@@ -899,6 +982,6 @@ export default function page() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

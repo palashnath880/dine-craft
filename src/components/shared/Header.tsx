@@ -14,7 +14,7 @@ export default function Header() {
     },
     {
       label: "Services",
-      href: "/service",
+      href: "/services",
     },
     {
       label: "Events",
