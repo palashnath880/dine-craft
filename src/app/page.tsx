@@ -25,8 +25,7 @@ export default function page() {
 
       <MenuArea />
 
-      {/* Booking area */}
-      {/* <BookingArea /> */}
+      <BookingArea />
 
       {/* Team area */}
       {/* <TeamArea /> */}
