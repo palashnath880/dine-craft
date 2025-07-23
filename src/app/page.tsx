@@ -32,8 +32,7 @@ export default function page() {
       {/* Testimonial area  */}
       {/* <TestimonialArea /> */}
 
-      {/* Blog area */}
-      {/* <BlogArea /> */}
+      <BlogArea />
     </>
   );
 }

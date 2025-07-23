@@ -1,22 +1,19 @@
 import React from "react";
 import BlogItem from "../shared/BlogItem";
+import SectionHeading from "./SectionHeading";
 
 export default function BlogArea() {
   return (
-    <div className="container-fluid blog py-6">
+    <section className="py-16">
       <div className="container">
-        <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
-            Our Blog
-          </small>
-          <h1 className="display-5 mb-5">Be First Who Read News</h1>
-        </div>
-        <div className="row gx-4 justify-content-center">
-          {[...Array(10)].map((_, index) => (
+        <SectionHeading title="Our Blog" subtitle="Be First Who Read News" />
+
+        <div className="grid grid-cols-12 gap-x-8 gap-y-10 mt-16">
+          {[...Array(6)].map((_, index) => (
             <BlogItem key={index} />
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
