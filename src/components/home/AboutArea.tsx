@@ -10,6 +10,7 @@ export default function AboutArea() {
         <div className="grid grid-cols-12 gap-20 items-center">
           <div className="col-span-5">
             <Image
+              fetchPriority="low"
               width={400}
               height={400}
               draggable={false}
