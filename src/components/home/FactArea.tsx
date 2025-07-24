@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaUsersCog } from "react-icons/fa";
 import { FaCheck, FaUsers } from "react-icons/fa6";
 import { IoIosPlay } from "react-icons/io";
@@ -9,6 +9,24 @@ import { IoIosPlay } from "react-icons/io";
 export default function FactArea() {
   // state
   const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  // outside click detect
+  useEffect(() => {
+    const closeModal = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (!target) return;
+
+      const modal = target.closest(".modal");
+      const modalBody = target.closest(".modal-body");
+      if (modal && modal.classList.contains("visible") && !modalBody) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener("click", closeModal);
+
+    return () => window.removeEventListener("click", closeModal);
+  }, []);
 
   return (
     <>
@@ -72,15 +90,17 @@ export default function FactArea() {
         }`}
       >
         <div className="w-full h-full grid place-items-center">
-          <div className="w-[90%] md:w-2xl lg:w-4xl h-0 pb-[56.25%] relative overflow-hidden">
-            <iframe
-              className="w-full h-full absolute top-0 left-0"
-              src="https://www.youtube.com/embed/GcDXopVBN-k?si=oV9Q3CTAuSXaKcyd"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen={false}
-            ></iframe>
+          <div className="modal-body w-[90%] md:w-2xl lg:w-4xl h-0 pb-[56.25%] relative overflow-hidden">
+            {isOpen && (
+              <iframe
+                className="w-full h-full absolute top-0 left-0"
+                src="https://www.youtube.com/embed/GcDXopVBN-k?si=oV9Q3CTAuSXaKcyd"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen={false}
+              ></iframe>
+            )}
           </div>
         </div>
       </div>
