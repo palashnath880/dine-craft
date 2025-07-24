@@ -26,3 +26,16 @@ body{
 .modal{
   @apply fixed top-0 left-0 w-full h-screen transition duration-300 z-[10000]
 }
+
+/** my input css */
+.my-input{
+  @apply w-full rounded-full outline-primary py-3 px-6 border border-primary cursor-pointer
+}
+
+/** select input css start */
+select.my-input{
+  @apply appearance-none relative bg-no-repeat;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='14' viewBox='0 0 24 24' width='14' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") ;
+  background-position: 93% 50%;
+  background-size: 2rem auto;
+}

@@ -1,25 +1,135 @@
+import PageHeader from "@/components/shared/PageHeader";
 import Image from "next/image";
 import React from "react";
 
 export default function page() {
   return (
-    <div>
-      <div className="container-fluid bg-light py-6 my-6 mt-0">
-        <div className="container text-center animated bounceInDown">
-          <h1 className="display-1 mb-4">Booking</h1>
-          <ol className="breadcrumb justify-content-center mb-0 animated bounceInDown">
-            <li className="breadcrumb-item">
-              <a href="#">Home</a>
-            </li>
-            <li className="breadcrumb-item">
-              <a href="#">Pages</a>
-            </li>
-            <li className="breadcrumb-item text-dark" aria-current="page">
-              Booking
-            </li>
-          </ol>
+    <>
+      <PageHeader name="Booking" />
+
+      <section className="py-16">
+        <div className="container">
+          <div className="flex flex-col gap-16 bg-primary/5 px-16 py-16 shadow-md rounded-2xl">
+            <div className="flex flex-col items-start gap-5">
+              <small
+                className={`font-semibold uppercase border-2 border-primary rounded-full px-4 py-1 text-secondary`}
+              >
+                Book Us
+              </small>
+              <h1 className={`font-bold font-playball text-5xl text-secondary`}>
+                Where you want Our Services
+              </h1>
+            </div>
+
+            <div className="flex">
+              <form className="w-3/5">
+                <div className="grid grid-cols-12 gap-x-5 gap-y-7">
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="name"
+                      type="text"
+                      className="my-input"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="email"
+                      type="email"
+                      className="my-input"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="phone"
+                      type="tel"
+                      className="my-input"
+                      placeholder="Your Phone"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <select
+                      className="my-input"
+                      name="eventType"
+                      required
+                      value={""}
+                    >
+                      <option value="" disabled>
+                        Event Type
+                      </option>
+                      <option value="Wedding">Wedding</option>
+                      <option value="Cocktail">Cocktail</option>
+                      <option value="Corporate">Corporate</option>
+                      <option value="Buffet">Buffet</option>
+                    </select>
+                  </div>
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="eventDate"
+                      type="date"
+                      className="my-input"
+                      placeholder="Event Date"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="eventTime"
+                      type="time"
+                      className="my-input"
+                      placeholder="Event Time"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="noOfGuest"
+                      type="number"
+                      className="my-input"
+                      placeholder="Number of Guests"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <input
+                      required
+                      name="location"
+                      type="text"
+                      className="my-input"
+                      placeholder="Location"
+                    />
+                  </div>
+
+                  <div className="col-span-12">
+                    <div className="flex flex-col gap-4 items-start">
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="checkbox"
+                          id="terms&condition"
+                          className="w-5 h-5 cursor-pointer"
+                        />
+                        <label
+                          htmlFor="terms&condition"
+                          className="cursor-pointer"
+                        >
+                          Agree to Terms & Conditions
+                        </label>
+                      </div>
+                      <button className="btn-primary" type="submit">
+                        Book Catering Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       <div
         className="container-fluid contact py-6 wow bounceInUp"
@@ -29,7 +139,9 @@ export default function page() {
           <div className="row g-0">
             <div className="col-1">
               <Image
-                src="img/background-site.jpg"
+                width={300}
+                height={300}
+                src="/img/background-site.jpg"
                 className="img-fluid h-100 w-100 rounded-start"
                 style={{ objectFit: "cover", opacity: "0.7" }}
                 alt=""
@@ -148,7 +260,9 @@ export default function page() {
             </div>
             <div className="col-1">
               <Image
-                src="img/background-site.jpg"
+                width={400}
+                height={300}
+                src="/img/background-site.jpg"
                 className="img-fluid h-100 w-100 rounded-end"
                 style={{ objectFit: "cover", opacity: "0.7" }}
                 alt=""
@@ -157,6 +271,6 @@ export default function page() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
