@@ -370,7 +370,7 @@
   {
     "id": "550e8400-e29b-41d4-a716-446655440046",
     "title": "Senior Citizen Discount",
-    "price": 0.00,
+    "price": 0.0,
     "type": "veg",
     "category": "Offers",
     "description": "10% off for customers 60+ years"

@@ -15,6 +15,11 @@ export default function MenuItem(props: MenuItemProps) {
   // props destructuring
   const { description, imgURL, price, title, type } = props;
 
+  // generate a random number 1 to 10
+  const randomNumber = (Math.floor(Math.random() * 10) + 1)
+    .toString()
+    .padStart(2, "0");
+
   return (
     <div className="col-span-6">
       <div className="flex items-center gap-5">
@@ -22,8 +27,8 @@ export default function MenuItem(props: MenuItemProps) {
           draggable={false}
           width={200}
           height={200}
-          className="rounded-full w-40 object-cover"
-          src={imgURL}
+          className="rounded-full w-40 object-cover cursor-pointer"
+          src={`/img/menu-${randomNumber}.jpg`}
           alt={title}
         />
         <div className="flex-1 flex flex-col gap-3">
