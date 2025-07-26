@@ -5,7 +5,7 @@ import { FaArrowRight, FaShare } from "react-icons/fa6";
 
 export default function AboutArea() {
   return (
-    <section className="py-20">
+    <section className="py-20" id="about">
       <div className="container">
         <div className="grid grid-cols-12 gap-20 items-center">
           <div className="col-span-5">

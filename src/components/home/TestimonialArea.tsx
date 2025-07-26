@@ -3,7 +3,7 @@ import React from "react";
 
 export default function TestimonialArea() {
   return (
-    <div className="container-fluid py-6">
+    <div className="container-fluid py-6" id="testimonial">
       <div className="container">
         <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
           <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">
@@ -18,11 +18,13 @@ export default function TestimonialArea() {
           {[...Array(10)].map((_, index) => (
             <div className="testimonial-item rounded bg-light" key={index}>
               <div className="d-flex mb-3">
-                <Image
+                {/* <Image
+                  width={300}
+                  height={200}
                   src="img/testimonial-1.jpg"
                   className="img-fluid rounded-circle flex-shrink-0"
                   alt=""
-                />
+                /> */}
                 <div
                   className="position-absolute"
                   style={{ top: "15px", right: "20px" }}

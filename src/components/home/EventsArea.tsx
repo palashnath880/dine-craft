@@ -21,7 +21,7 @@ export default function EventsArea() {
   ];
 
   return (
-    <section className="py-16">
+    <section className="py-16" id="events">
       <div className="container">
         <div className="flex flex-col items-center gap-5">
           <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">

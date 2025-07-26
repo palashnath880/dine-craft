@@ -7,7 +7,7 @@ import HeroArea from "@/components/home/HeroArea";
 import MenuArea from "@/components/home/MenuArea";
 import ServiceArea from "@/components/home/ServiceArea";
 import TeamArea from "@/components/home/TeamArea";
-// import TestimonialArea from "@/components/home/TestimonialArea";
+import TestimonialArea from "@/components/home/TestimonialArea";
 import React from "react";
 
 export default function page() {
@@ -29,8 +29,7 @@ export default function page() {
 
       <TeamArea />
 
-      {/* Testimonial area  */}
-      {/* <TestimonialArea /> */}
+      <TestimonialArea />
 
       <BlogArea />
     </>

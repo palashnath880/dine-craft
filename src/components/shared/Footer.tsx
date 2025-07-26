@@ -1,6 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaArrowUp, FaCopyright, FaMapMarkerAlt } from "react-icons/fa";
 import {
   FaCheck,
@@ -14,6 +16,34 @@ import {
 } from "react-icons/fa6";
 
 export default function Footer() {
+  // state
+  const [isVisible, setIsVisible] = useState<boolean>(false);
+
+  // scroll to top function
+  const scrollToTop = () => {
+    document.body.scrollTo({ top: 0, behavior: "smooth" });
+    document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    // handle scroll
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsVisible(true);
+        return;
+      }
+      setIsVisible(false);
+    };
+
+    handleScroll(); // initial call function
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <footer
@@ -231,7 +261,12 @@ export default function Footer() {
       </footer>
 
       {/* Back to Top Button */}
-      <button className="bg-primary w-10 h-10 grid place-items-center rounded-full cursor-pointer fixed bottom-8 right-8">
+      <button
+        className={`bg-primary w-10 h-10 grid place-items-center rounded-full cursor-pointer fixed bottom-8 right-8 transition-all duration-300 ${
+          isVisible ? "visible opacity-100" : "invisible opacity-0"
+        }`}
+        onClick={scrollToTop}
+      >
         <FaArrowUp />
       </button>
     </>

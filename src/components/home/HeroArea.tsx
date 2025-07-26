@@ -38,6 +38,7 @@ export default function HeroArea() {
           <div className="col-span-5 max-md:col-span-12">
             <div className="w-full h-auto px-5">
               <Image
+                priority
                 width={200}
                 height={200}
                 draggable={false}

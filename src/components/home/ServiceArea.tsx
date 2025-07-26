@@ -62,7 +62,7 @@ export default function ServiceArea() {
   ];
 
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-gray-50 py-20" id="services">
       <div className="container">
         <div className="flex flex-col items-center gap-5">
           <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
