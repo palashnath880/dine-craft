@@ -10,15 +10,15 @@ export default function Header() {
     },
     {
       label: "About",
-      href: "/about",
+      href: "/#about",
     },
     {
       label: "Services",
-      href: "/services",
+      href: "/#services",
     },
     {
       label: "Events",
-      href: "/events",
+      href: "/#events",
     },
     {
       label: "Our Menu",
