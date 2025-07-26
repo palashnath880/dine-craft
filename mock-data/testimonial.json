@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "img_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 5,
+    "message": "The wedding catering was absolutely flawless! Our guests are still raving about the seasonal summer menu. The presentation was stunning and the staff was incredibly professional. They accommodated all our dietary requests without compromising on taste.",
+    "profession": "Marketing Director",
+    "company": "Stellar Solutions Inc."
+  },
+  {
+    "name": "Michael Chen",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 5,
+    "message": "Our corporate retreat catering exceeded all expectations. The farm-to-table approach with local ingredients made our team feel special. The sustainable practices aligned perfectly with our company values. Will definitely book again for our next event!",
+    "profession": "CEO",
+    "company": "GreenTech Innovations"
+  },
+  {
+    "name": "Emily Rodriguez",
+    "img_url": "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 4,
+    "message": "The cocktail party catering was a huge success! The small bites were creative and delicious. I especially loved the international fusion options. Only suggestion would be to include more vegan choices next time.",
+    "profession": "Event Planner",
+    "company": "Premiere Events Co."
+  },
+  {
+    "name": "David Kim",
+    "img_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 5,
+    "message": "As a restaurant owner, I'm particular about food quality. Your brunch catering for our staff appreciation day was exceptional - better than many sit-down restaurants! The eggs Benedict were perfect and the pancake station was a hit.",
+    "profession": "Restaurateur",
+    "company": "The Urban Fork"
+  },
+  {
+    "name": "Priya Patel",
+    "img_url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 5,
+    "message": "The attention to dietary needs was impressive. Our Hindu wedding had complex requirements, and your team executed the vegetarian thali service beautifully. The flavors transported us back to India!",
+    "profession": "Financial Analyst",
+    "company": "Global Capital"
+  },
+  {
+    "name": "James Wilson",
+    "img_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 4.5,
+    "message": "Great BBQ catering for our company picnic! The meats were smoky and tender, and the staff handled the outdoor setup perfectly. Would have loved slightly more variety in the sides, but overall fantastic experience.",
+    "profession": "Operations Manager",
+    "company": "Midwest Manufacturing"
+  },
+  {
+    "name": "Olivia Thompson",
+    "img_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 5,
+    "message": "Our micro-wedding catering was worth every penny. The intimate chef's table experience with wine pairings made our 20 guests feel like royalty. The duck confit was the best I've ever had!",
+    "profession": "Interior Designer",
+    "company": "Thompson Designs"
+  },
+  {
+    "name": "Robert Garcia",
+    "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 3.5,
+    "message": "The kosher catering for our bar mitzvah was outstanding. The mashgiach put our family at ease, and the modern twist on traditional dishes delighted both young and older guests. The brisket melted in your mouth!",
+    "profession": "Attorney",
+    "company": "Garcia & Associates"
+  },
+  {
+    "name": "Sophia Lee",
+    "img_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 5,
+    "message": "Your team saved our product launch when our original caterer canceled last minute. Not only did you accommodate the short notice, but the tech-themed canapés were brilliant! The CEO specifically complimented the food.",
+    "profession": "Marketing Manager",
+    "company": "Nexus Technologies"
+  },
+  {
+    "name": "Daniel Brown",
+    "img_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "rating": 4,
+    "message": "The holiday party catering created such a festive atmosphere! The themed desserts and hot cocoa bar were highlights. Service was excellent, though one more bartender would have reduced wait times during peak hours.",
+    "profession": "HR Director",
+    "company": "Summit Financial"
+  }
+]

@@ -42,3 +42,9 @@ select.my-input{
   background-position: 93% 50%;
   background-size: 2rem auto;
 }
+
+/** add tailwind class in the testimonial slider */
+
+.testimonial-slider .slick-slide>div {
+  @apply h-full pb-5 px-2;
+}
