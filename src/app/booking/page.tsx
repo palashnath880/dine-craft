@@ -5,7 +5,7 @@ import React from "react";
 export default function page() {
   return (
     <>
-      <PageHeader name="Booking" />
+      <PageHeader name="Booking" bgImg="/img/booking-bg.webp" />
 
       <section className="py-16">
         <div className="container">
