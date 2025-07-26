@@ -35,21 +35,21 @@ export default function FactArea() {
           <div className="grid grid-cols-12 gap-14 items-center">
             <div className="col-span-7">
               <div className="grid grid-cols-12 gap-5">
-                <div className="col-span-4 bg-primary rounded-xl">
+                <div className="col-span-4 bg-primary rounded-xl pb-10 pt-7">
                   <div className="flex flex-col gap-5 p-4 justify-start items-center">
                     <FaUsers className="text-white text-7xl" />
                     <h1 className="text-5xl font-playball font-bold">689</h1>
                     <p className="uppercase font-semibold">Happy Customers</p>
                   </div>
                 </div>
-                <div className="col-span-4 bg-primary rounded-xl">
+                <div className="col-span-4 bg-primary rounded-xl pb-10 pt-7">
                   <div className="flex flex-col gap-5 p-4 justify-start items-center">
                     <FaUsersCog className="text-white text-7xl" />
                     <h1 className="text-5xl font-playball font-bold">107</h1>
                     <p className="uppercase font-semibold">Expert Chefs</p>
                   </div>
                 </div>
-                <div className="col-span-4 bg-primary rounded-xl">
+                <div className="col-span-4 bg-primary rounded-xl pb-10 pt-7">
                   <div className="flex flex-col gap-5 p-4 justify-start items-center">
                     <FaCheck className="text-white text-7xl" />
                     <h1 className="text-5xl font-playball font-bold">253</h1>
