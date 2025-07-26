@@ -1,0 +1,402 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "title": "Butter Chicken",
+    "price": 14.99,
+    "type": "nonveg",
+    "category": "Main Course",
+    "description": "Creamy tomato curry with tender chicken pieces"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "title": "Paneer Tikka",
+    "price": 11.99,
+    "type": "veg",
+    "category": "Starter",
+    "description": "Grilled cottage cheese with spicy marinade"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "title": "Mango Lassi",
+    "price": 4.99,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Refreshing yogurt drink with mango pulp"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "title": "Weekend Special Thali",
+    "price": 19.99,
+    "type": "veg",
+    "category": "Offers",
+    "description": "Complete meal with 6 dishes & dessert"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "title": "Chef's Signature Biryani",
+    "price": 16.99,
+    "type": "nonveg",
+    "category": "Our Special",
+    "description": "Aromatic rice with secret spice blend"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "title": "Masala Chai",
+    "price": 3.49,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Spiced Indian tea with milk and herbs"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "title": "Vegetable Spring Rolls",
+    "price": 8.49,
+    "type": "veg",
+    "category": "Starter",
+    "description": "Crispy rolls with vegetable filling"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "title": "Chicken 65",
+    "price": 10.99,
+    "type": "nonveg",
+    "category": "Starter",
+    "description": "Spicy deep-fried chicken appetizer"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "title": "Palak Paneer",
+    "price": 12.49,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Cottage cheese in creamy spinach gravy"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "title": "Garlic Naan",
+    "price": 3.99,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Leavened bread with garlic butter"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "title": "Mint Mojito",
+    "price": 5.99,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Fresh mint lime soda with ice"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "title": "Family Combo Meal",
+    "price": 34.99,
+    "type": "nonveg",
+    "category": "Offers",
+    "description": "4 mains, 2 starters, rice & breads"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "title": "Dum Aloo",
+    "price": 11.99,
+    "type": "veg",
+    "category": "Our Special",
+    "description": "Baby potatoes in rich Kashmiri gravy"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "title": "Chicken Tikka",
+    "price": 12.99,
+    "type": "nonveg",
+    "category": "Starter",
+    "description": "Tandoor-grilled chicken with spices"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440014",
+    "title": "Veg Fried Rice",
+    "price": 10.99,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Stir-fried rice with mixed vegetables"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440015",
+    "title": "Rose Milk",
+    "price": 4.49,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Cold milk flavored with rose syrup"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440016",
+    "title": "Lunch Special (Mon-Fri)",
+    "price": 12.99,
+    "type": "veg",
+    "category": "Offers",
+    "description": "Daily changing thali with 4 items"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440017",
+    "title": "Mutton Korma",
+    "price": 17.99,
+    "type": "nonveg",
+    "category": "Our Special",
+    "description": "Mild creamy curry with tender mutton"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440018",
+    "title": "Gobi Manchurian",
+    "price": 9.99,
+    "type": "veg",
+    "category": "Starter",
+    "description": "Crispy cauliflower in tangy sauce"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440019",
+    "title": "Egg Curry",
+    "price": 11.49,
+    "type": "nonveg",
+    "category": "Main Course",
+    "description": "Boiled eggs in spicy onion-tomato gravy"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440020",
+    "title": "Sweet Lassi",
+    "price": 4.49,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Sweetened yogurt drink with cardamom"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440021",
+    "title": "Early Bird Special",
+    "price": 9.99,
+    "type": "veg",
+    "category": "Offers",
+    "description": "Breakfast combo (7-9am only)"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440022",
+    "title": "Hyderabadi Biryani",
+    "price": 15.99,
+    "type": "nonveg",
+    "category": "Our Special",
+    "description": "Famous dum-cooked rice with meat"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440023",
+    "title": "Chicken Wings",
+    "price": 10.49,
+    "type": "nonveg",
+    "category": "Starter",
+    "description": "Crispy wings with choice of sauce"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440024",
+    "title": "Dal Tadka",
+    "price": 9.99,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Tempered yellow lentils with spices"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440025",
+    "title": "Iced Tea",
+    "price": 3.99,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Chilled tea with lemon and mint"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440026",
+    "title": "Kids Meal Box",
+    "price": 8.99,
+    "type": "veg",
+    "category": "Offers",
+    "description": "Mini portions with toy surprise"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440027",
+    "title": "Prawn Masala",
+    "price": 18.99,
+    "type": "nonveg",
+    "category": "Our Special",
+    "description": "Fresh prawns in spicy coconut gravy"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440028",
+    "title": "Bhel Puri",
+    "price": 7.49,
+    "type": "veg",
+    "category": "Starter",
+    "description": "Puffed rice with tangy chutneys"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440029",
+    "title": "Chana Masala",
+    "price": 10.99,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Chickpeas in onion-tomato gravy"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440030",
+    "title": "Filter Coffee",
+    "price": 3.99,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "South Indian style strong coffee"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440031",
+    "title": "Date Night Special",
+    "price": 29.99,
+    "type": "nonveg",
+    "category": "Offers",
+    "description": "Romantic dinner for two with wine"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440032",
+    "title": "Malai Kofta",
+    "price": 13.49,
+    "type": "veg",
+    "category": "Our Special",
+    "description": "Vegetable dumplings in creamy sauce"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440033",
+    "title": "Fish Pakora",
+    "price": 11.99,
+    "type": "nonveg",
+    "category": "Starter",
+    "description": "Battered fish pieces deep fried"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440034",
+    "title": "Jeera Rice",
+    "price": 8.99,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Basmati rice tempered with cumin"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440035",
+    "title": "Badam Milk",
+    "price": 5.49,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Almond flavored warm milk drink"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440036",
+    "title": "Corporate Lunch Box",
+    "price": 14.99,
+    "type": "veg",
+    "category": "Offers",
+    "description": "Executive meal with 3 dishes"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440037",
+    "title": "Rabdi Jalebi",
+    "price": 7.99,
+    "type": "veg",
+    "category": "Our Special",
+    "description": "Crispy swirls with thickened milk"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440038",
+    "title": "Chicken Satay",
+    "price": 12.49,
+    "type": "nonveg",
+    "category": "Starter",
+    "description": "Skewered grilled chicken with sauce"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440039",
+    "title": "Baingan Bharta",
+    "price": 11.49,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Smoked eggplant mashed with spices"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440040",
+    "title": "Sugarcane Juice",
+    "price": 4.99,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Freshly extracted sugarcane juice"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440041",
+    "title": "Happy Hour Mocktails",
+    "price": 6.99,
+    "type": "veg",
+    "category": "Offers",
+    "description": "Buy one get one free (4-6pm)"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440042",
+    "title": "Nalli Nihari",
+    "price": 19.99,
+    "type": "nonveg",
+    "category": "Our Special",
+    "description": "Slow-cooked lamb shank curry"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440043",
+    "title": "Pani Puri",
+    "price": 6.99,
+    "type": "veg",
+    "category": "Starter",
+    "description": "Crisp puris with spicy water"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440044",
+    "title": "Kadai Paneer",
+    "price": 13.99,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Cottage cheese in bell pepper gravy"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440045",
+    "title": "Masala Soda",
+    "price": 3.99,
+    "type": "veg",
+    "category": "Drinks",
+    "description": "Spiced carbonated lemon drink"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440046",
+    "title": "Senior Citizen Discount",
+    "price": 0.00,
+    "type": "veg",
+    "category": "Offers",
+    "description": "10% off for customers 60+ years"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440047",
+    "title": "Kulfi Falooda",
+    "price": 8.99,
+    "type": "veg",
+    "category": "Our Special",
+    "description": "Traditional ice cream with noodles"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440048",
+    "title": "Chicken Lollipop",
+    "price": 11.99,
+    "type": "nonveg",
+    "category": "Starter",
+    "description": "Frenched chicken wings with glaze"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440049",
+    "title": "Rajma Chawal",
+    "price": 12.49,
+    "type": "veg",
+    "category": "Main Course",
+    "description": "Red kidney beans with steamed rice"
+  }
+]
