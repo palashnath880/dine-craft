@@ -1,6 +1,7 @@
 [
   {
     "id": "b3d8a1c0-5a7e-4a3b-9b2d-1a2b3c4d5e6f",
+    "slug": "10-tips-perfect-corporate-catering",
     "title": "10 Tips for Planning the Perfect Corporate Catering Event",
     "description": "Planning a corporate catering event requires attention to detail and careful consideration of your guests' needs. Start by understanding your audience - are they executives needing a quick lunch or clients expecting a gourmet experience? Always account for dietary restrictions by offering vegetarian, vegan, and gluten-free options. Presentation matters just as much as taste in professional settings, so invest in quality servingware. Consider the flow of your event - buffet stations work well for networking, while plated meals create formal atmosphere. Don't forget about beverages - a good coffee station can be just as important as the food. Always have 10% more food than you think you'll need to accommodate unexpected guests or hearty appetites.",
     "category": "Corporate Catering",
@@ -10,6 +11,7 @@
   },
   {
     "id": "c4e9b2d1-6b8f-5b4c-0a1b-2c3d4e5f6a7b",
+    "slug": "summer-wedding-menu-ideas",
     "title": "Seasonal Menu Ideas for Summer Weddings",
     "description": "Summer weddings call for fresh, light, and vibrant menu options that complement the season. Start with passed hors d'oeuvres like watermelon feta skewers or chilled cucumber cups with herbed cream cheese. For main courses, consider grilled options like lemon-herb chicken or cedar-plank salmon that can be prepared outdoors. Incorporate seasonal produce like heirloom tomatoes, stone fruits, and fresh berries into your salads and desserts. A signature summer cocktail like a lavender lemonade or mango mojito can add special touch. Don't forget about food safety in warm weather - keep cold foods chilled and hot foods at proper temperatures. A well-planned summer wedding menu should reflect the lightness and joy of the season while satisfying guests' appetites.",
     "category": "Wedding Catering",
@@ -19,6 +21,7 @@
   },
   {
     "id": "d5f0c3e2-7c9g-6d5e-1b2c-3d4e5f6a7b8c",
+    "slug": "choose-right-caterer",
     "title": "How to Choose the Right Caterer for Your Event",
     "description": "Selecting the perfect caterer is crucial for your event's success. Start by determining your budget and guest count before reaching out to potential caterers. Look for professionals with experience in your type of event - wedding caterers have different expertise than corporate lunch providers. Schedule tastings to evaluate food quality and presentation style. Ask about their staffing ratios to ensure proper service levels. Check references and online reviews thoroughly. Discuss their flexibility with menu customization and last-minute changes. Understand what's included in their pricing - some caterers provide linens and tableware while others don't. Pay attention to how responsive and detail-oriented they are during the planning process, as this indicates how they'll perform at your event. A good caterer should be a partner in making your vision come to life.",
     "category": "Catering Tips",
@@ -28,6 +31,7 @@
   },
   {
     "id": "e6g1d4f3-8d0h-7e6f-2c3d-4e5f6a7b8c9d",
+    "slug": "art-food-presentation",
     "title": "The Art of Food Presentation: Elevating Your Catered Event",
     "description": "Food presentation transforms a meal from ordinary to extraordinary. Start with color - vibrant vegetables, colorful sauces, and garnishes create visual appeal. Consider height variation using cake stands or tiered trays to add dimension to your buffet. Use edible flowers or microgreens for elegant finishing touches. Plate with purpose, leaving negative space rather than overcrowding. Choose servingware that complements your event theme - rustic wood boards for casual events or fine china for formal affairs. For passed hors d'oeuvres, select unique vessels like spoons or small glasses for creative presentation. Remember that people eat with their eyes first, so take time to arrange each dish thoughtfully. Consistent plating across service staff creates a professional impression. Great presentation shows care and attention to detail that guests will notice and appreciate.",
     "category": "Catering Techniques",
@@ -37,6 +41,7 @@
   },
   {
     "id": "f7h2e5g4-9e1i-8f7g-3d4e-5f6a7b8c9d0e",
+    "slug": "sustainable-catering-practices",
     "title": "Sustainable Catering: Reducing Waste at Your Events",
     "description": "Eco-friendly catering practices benefit both the environment and your bottom line. Start by working with local suppliers to reduce food miles and support community businesses. Opt for seasonal ingredients that don't require energy-intensive storage or transportation. Implement careful portion planning to minimize food waste - consider using smaller plates to encourage appropriate serving sizes. Choose compostable or reusable servingware instead of single-use plastics. Donate unused food to local shelters or food banks when possible. Set up clearly labeled recycling and compost stations to help guests dispose of waste properly. Use digital menus and invitations to reduce paper waste. Train staff on conservation practices like turning off unused equipment and conserving water. Communicate your sustainability efforts to guests - many appreciate knowing they're participating in environmentally responsible events. Small changes add up to significant impact when catering large groups.",
     "category": "Sustainable Catering",
@@ -46,6 +51,7 @@
   },
   {
     "id": "a8b3f6g5-0f2j-9g8h-4e5f-6a7b8c9d0e1f",
+    "slug": "cocktail-party-catering-guide",
     "title": "Cocktail Party Catering: Small Bites That Make a Big Impact",
     "description": "Cocktail parties require careful planning to create the right flow and guest experience. Plan for 8-10 pieces per person for a two-hour event, with more substantial bites if alcohol is served. Create variety with different textures and temperatures - pair crispy items with creamy dips or chilled seafood with warm breads. Include vegetarian, gluten-free, and dairy-free options to accommodate all guests. Consider interactive stations like build-your-own crostini or a gourmet slider bar. Presentation matters - use tiered stands and creative plating to elevate simple ingredients. Time your service carefully, starting with lighter fare and progressing to heartier options. Train staff to circulate efficiently without being intrusive. Signature cocktails that complement your menu can tie the event together. Remember that at cocktail parties, the food is the centerpiece, so invest in quality ingredients and creative combinations that will spark conversation.",
     "category": "Event Catering",
@@ -55,6 +61,7 @@
   },
   {
     "id": "b9c4g7h6-1g3k-0h9i-5f6a-7b8c9d0e1f2g",
+    "slug": "international-catering-considerations",
     "title": "Cultural Considerations in International Event Catering",
     "description": "When catering for international events, cultural sensitivity is as important as culinary skill. Research dietary laws and restrictions - for example, halal, kosher, or Hindu vegetarian requirements. Understand that color symbolism varies globally - while white represents purity in Western cultures, it signifies mourning in some Asian cultures. Consider seating arrangements and serving styles that respect cultural norms about social hierarchy and gender dynamics. Be aware of symbolic foods that might be inappropriate for certain events. Adapt portion sizes to cultural expectations - some cultures prefer abundant displays while others value moderation. Include traditional welcoming elements like tea ceremonies or bread-breaking rituals when appropriate. Train staff on cultural etiquette to avoid unintentional offense. Most importantly, consult with cultural liaisons or community leaders when planning menus for events serving diverse international audiences. Thoughtful catering builds bridges between cultures.",
     "category": "International Catering",
@@ -64,6 +71,7 @@
   },
   {
     "id": "c0d5h8i7-2h4l-1i0j-6a7b-8c9d0e1f2g3h",
+    "slug": "impressive-brunch-catering-ideas",
     "title": "Brunch Catering Ideas That Will Impress Your Guests",
     "description": "Brunch catering combines breakfast and lunch elements for a versatile midday meal. Create stations for made-to-order omelets or pancakes with various toppings. Include both sweet and savory options - think Belgian waffles alongside eggs Benedict. Fresh fruit displays add color and healthy choices. For beverages, go beyond basic coffee with a mimosa bar featuring different juices or a bloody Mary station with custom garnishes. Incorporate lunch elements like carving stations or salads for guests who prefer heartier options. Presentation is key - use chalkboard signs to label dishes and tiered stands for pastries. Consider timing - brunch service should be leisurely but efficient, with food refreshed regularly. Don't forget the little touches like real maple syrup, freshly whipped cream, and high-quality coffee that elevate the experience. A well-executed brunch creates a relaxed, celebratory atmosphere perfect for showers, reunions, or corporate retreats.",
     "category": "Brunch Catering",
@@ -73,6 +81,7 @@
   },
   {
     "id": "d1e6i9j8-3i5m-2j1k-7b8c-9d0e1f2g3h4i",
+    "slug": "handling-catering-changes",
     "title": "How to Handle Last-Minute Changes to Your Catered Event",
     "description": "Even with perfect planning, last-minute changes are inevitable in catering. Build flexibility into your contracts and menus to accommodate unexpected adjustments. Maintain good relationships with suppliers who can provide quick substitutions when needed. Keep an emergency kit with extra linens, servingware, and common ingredients. Cross-train staff so team members can switch roles if someone calls in sick. For weather-dependent outdoor events, have both wet and dry weather plans prepared in advance. When guest counts change dramatically, work with your caterer to adjust menu quantities without sacrificing quality. Communicate changes clearly to all vendors and staff to ensure seamless execution. Most importantly, stay calm - guests will take cues from your attitude. Experienced caterers know that adaptability is as important as planning in creating successful events. With the right preparation and mindset, you can handle any last-minute challenge professionally.",
     "category": "Catering Management",
@@ -82,11 +91,412 @@
   },
   {
     "id": "e2f7j0k9-4j6n-3k2l-8c9d-0e1f2g3h4i5j",
+    "slug": "buffet-layout-psychology",
     "title": "The Psychology of Buffet Layout: Maximizing Guest Experience",
     "description": "Buffet layout significantly impacts guest flow and food consumption patterns. Place less expensive items like salads and bread at the beginning where guests tend to fill their plates. Position your signature dishes at eye level in the middle section where they'll get attention. Create natural flow by placing plates at the start and utensils at the end. Allow enough space between stations to prevent bottlenecks. Use height variation to make the spread visually appealing without creating accessibility issues. Group logically related items together (all proteins in one area, sides in another). Consider traffic patterns - right-handed people naturally move counterclockwise. For large events, duplicate popular stations to reduce lines. Lighting is crucial - ensure food is well-lit but not under harsh lights that can dry out dishes. A well-designed buffet enhances guest experience while controlling costs through strategic placement of menu items.",
     "category": "Catering Design",
     "created_at": "2023-10-19T17:30:00Z",
     "comments_count": 10,
     "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "f3g8k1l0-5k7o-4l3m-9d0e-1f2g3h4i5j6k",
+    "slug": "winter-wedding-menu-ideas",
+    "title": "Cozy Winter Wedding Menu Inspiration",
+    "description": "Winter weddings call for hearty, warming dishes that create a sense of comfort and celebration. Start with passed hors d'oeuvres like mini beef Wellingtons or butternut squash soup shooters. For main courses, consider braised short ribs, roasted root vegetables, or wild mushroom risotto. Incorporate seasonal flavors like cranberry, chestnut, and dark chocolate into your menu. A hot chocolate bar with various toppings makes for a memorable dessert alternative. Presentation should emphasize warmth - use cast iron skillets, wooden boards, and plenty of candlelight. Don't forget about practical considerations - keep hot foods covered until service and provide warming stations. A well-planned winter wedding menu makes guests feel pampered while celebrating the season's coziness and romance.",
+    "category": "Wedding Catering",
+    "created_at": "2023-11-25T12:45:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "g4h9l2m1-6l8p-5m4n-0e1f-2g3h4i5j6k7l",
+    "slug": "vegetarian-catering-trends",
+    "title": "Innovative Vegetarian Catering Trends for 2023",
+    "description": "Vegetarian catering has evolved far beyond basic pasta and salad options. Current trends include globally-inspired plant-based proteins like jackfruit carnitas or lentil koftas. Vegetable-forward presentations showcase produce as the star - think beet tartare or cauliflower steaks. Creative meat substitutes using mushrooms, tempeh, and seitan offer satisfying alternatives. Ethnic flavors are booming, with Indian thalis, Middle Eastern mezze, and Asian buddha bowls. Dairy-free cheeses and nut-based creams have dramatically improved. Interactive stations like build-your-own grain bowls or DIY taco bars engage guests. Even traditional comfort foods get vegetarian makeovers with clever ingredient swaps. Presentation focuses on vibrant colors and varied textures to demonstrate vegetarian cuisine's versatility. These innovations mean vegetarian menus can now be the highlight rather than an afterthought at any catered event.",
+    "category": "Menu Trends",
+    "created_at": "2023-01-05T10:15:00Z",
+    "comments_count": 9,
+    "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "h5i0m3n2-7m9q-6n5o-1f2g-3h4i5j6k7l8m",
+    "slug": "budget-catering-strategies",
+    "title": "Catering on a Budget: Smart Cost-Saving Strategies",
+    "description": "Exceptional catering doesn't require unlimited funds - just smart planning. Focus on a few high-impact items rather than trying to do everything. Choose seasonal ingredients that are flavorful and affordable. Consider family-style service instead of plated meals to reduce staffing costs. Daytime events typically cost less than evening receptions. Simplify your bar offerings with a signature cocktail and limited wine/beer selection. Repurpose ceremony flowers for the reception decor. Work with your caterer to identify which premium ingredients make the most difference and where you can economize. Some costs like linens and tableware can often be rented for less than purchasing. Buffets generally cost less than plated service. Remember that thoughtful presentation and attentive service elevate modest menus more than expensive ingredients alone. With creativity and prioritization, you can host a memorable event without breaking the bank.",
+    "category": "Catering Tips",
+    "created_at": "2023-04-18T14:30:00Z",
+    "comments_count": 14,
+    "img_url": "https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "i6j1n4o3-8n0r-7o6p-2g3h-4i5j6k7l8m9n",
+    "slug": "gluten-free-catering",
+    "title": "Mastering Gluten-Free Catering for Allergies & Preferences",
+    "description": "Gluten-free catering requires careful attention to ingredients, preparation, and cross-contamination. Start with naturally gluten-free whole foods like meats, fish, vegetables, and rice. Use certified gluten-free grains like quinoa, buckwheat, and gluten-free oats. Be vigilant about hidden gluten in sauces, dressings, and processed ingredients. Dedicate separate preparation areas and utensils to prevent cross-contact. Train staff thoroughly on gluten-free protocols and allergen awareness. Clearly label all gluten-free items on buffets. Consider making your entire event gluten-free if many guests have celiac disease. Offer delicious alternatives like almond flour crackers, chickpea pasta, or gluten-free breads that don't feel like compromises. Communication is key - work closely with guests who have dietary restrictions to understand their needs. Thoughtful gluten-free catering ensures all guests feel included and safe while enjoying delicious food.",
+    "category": "Special Diets",
+    "created_at": "2023-07-30T11:20:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "j7k2o5p4-9o1s-8p7q-3h4i-5j6k7l8m9n0o",
+    "slug": "holiday-party-catering",
+    "title": "Holiday Party Catering: Creating Festive Magic",
+    "description": "Holiday catering balances tradition with innovation to create memorable seasonal events. Incorporate classic flavors like cinnamon, nutmeg, and cranberry in creative ways. Themed food presentations (Christmas tree-shaped cheese boards, menorah dessert displays) add festive flair. Consider interactive elements like cookie decorating stations or hot toddy bars. Balance heavy holiday fare with lighter options for guests watching their intake. Accommodate diverse celebrations by offering both traditional and alternative menu items. Festive non-alcoholic beverages ensure all guests can participate in toasts. Staff should dress appropriately for the season (tasteful holiday attire). Timing is crucial - schedule service to complement rather than compete with gift exchanges or performances. Most importantly, create an atmosphere of abundance and celebration that captures the holiday spirit through food and hospitality.",
+    "category": "Seasonal Catering",
+    "created_at": "2023-12-10T18:00:00Z",
+    "comments_count": 8,
+    "img_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "k8l3p6q5-0p2t-9q8r-4i5j-6k7l8m9n0o1p",
+    "slug": "plated-vs-buffet-service",
+    "title": "Plated vs Buffet Service: Choosing What's Right for Your Event",
+    "description": "The choice between plated and buffet service depends on your event's style, budget, and goals. Plated service offers formal elegance with controlled portions and precise timing. It requires more staff but creates a luxurious experience. Buffets provide variety and guest choice while often costing less. They encourage mingling but require careful traffic flow planning. Hybrid options include served starters with buffet mains or action stations where chefs prepare items to order. Consider your guest count - plated works best under 150, while buffets handle large groups efficiently. Themed events often suit buffet's casual flexibility, while galas typically demand plated precision. Don't forget about dietary needs - buffets allow guests to self-select, while plated meals require advance meal choices. Ultimately, the right service style enhances your event's overall atmosphere and guest experience.",
+    "category": "Service Styles",
+    "created_at": "2023-03-22T13:45:00Z",
+    "comments_count": 12,
+    "img_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "l9m4q7r6-1q3u-0r9s-5j6k-7l8m9n0o1p2q",
+    "slug": "kids-party-catering",
+    "title": "Kids Party Catering: Fun & Nutritious Ideas",
+    "description": "Children's party catering requires balancing fun with nutrition and practicality. Create mini versions of favorite foods - sliders, tiny tacos, or cupcake-sized pizzas. Interactive elements like decorate-your-own cookies or build-a-sundae stations entertain while they feed. Include healthy options presented appealingly - fruit skewers, veggie cups with dip, or whole-grain sandwiches cut into fun shapes. Avoid common allergens or clearly label potential triggers. Simple, familiar foods usually work better than gourmet creations. Consider timing - kids eat best early in the party before sugar highs kick in. Provide small portions to reduce waste. For drinks, think beyond soda - flavored waters, smoothies, or milk shakes. Don't forget the adults - include some sophisticated options for parents. Most importantly, make food part of the fun with colorful presentations and playful themes that delight young guests.",
+    "category": "Family Catering",
+    "created_at": "2023-06-14T16:10:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "m0n5r8s7-2r4v-1s0t-6k7l-8m9n0o1p2q3r",
+    "slug": "farm-to-table-catering",
+    "title": "Farm-to-Table Catering: Building Local Partnerships",
+    "description": "Farm-to-table catering creates fresher menus while supporting local agriculture. Develop relationships with nearby farmers, ranchers, and artisanal producers. Design flexible menus based on what's seasonal and available. Highlight specific farms on your menu to tell the food's story. Accept that ingredients may change based on harvest conditions - this variability is part of the authenticity. Consider incorporating less common local varieties that surprise and delight guests. Reduce food miles by sourcing within 100 miles when possible. Visit suppliers to understand their practices and build trust. Communicate your farm-to-table commitment to clients - many appreciate knowing their event supports local economies. Challenges include shorter shelf lives and last-minute availability changes, but the rewards - superior flavor, sustainability, and community connection - make farm-to-table catering worthwhile for discerning clients.",
+    "category": "Sustainable Catering",
+    "created_at": "2023-09-28T09:30:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "n1o6s9t8-3s5w-2t1u-7l8m-9n0o1p2q3r4s",
+    "slug": "micro-wedding-catering",
+    "title": "Intimate Excellence: Catering for Micro-Weddings",
+    "description": "Micro-weddings (under 50 guests) allow for catering creativity and elevated experiences. Focus on premium ingredients that would be cost-prohibitive for large groups. Consider interactive chef's table experiences or multi-course tasting menus. Personalized touches like signature cocktails named for the couple add meaning. Presentation can be more elaborate with individual plating artistry. Accommodate all dietary preferences without the complexity of mass catering. Splurge on high-end tableware and linens that make intimate settings special. Timing can be more flexible, allowing for leisurely dining between wedding events. Staff can provide more attentive, personalized service with fewer guests. Micro-weddings offer the opportunity to create truly memorable culinary experiences that reflect the couple's unique tastes and love story through food.",
+    "category": "Wedding Catering",
+    "created_at": "2023-05-07T12:15:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "o2p7t0u9-4t6x-3u2v-8m9n-0o1p2q3r4s5t",
+    "slug": "breakfast-catering-ideas",
+    "title": "Rise & Shine: Creative Breakfast Catering Concepts",
+    "description": "Breakfast catering sets the tone for morning events with energy and freshness. Build a yogurt parfait bar with granola, fresh fruit, and honey options. Offer both sweet (pancakes, French toast) and savory (breakfast burritos, quiche) mains. Include protein-rich options like eggs and breakfast meats for staying power. Coffee service is crucial - consider specialty lattes or cold brew options. Fresh juices and smoothies add healthy appeal. For grab-and-go events, package items attractively in boxes or bags. Hot items should be kept at safe temperatures during transport and service. Creative presentations like waffle stations or omelet bars add interactive fun. Don't forget dietary needs - offer gluten-free breads, dairy-free milks, and plant-based protein options. Well-executed breakfast catering provides the fuel and goodwill to start any meeting or event on a positive note.",
+    "category": "Breakfast Catering",
+    "created_at": "2023-08-19T07:45:00Z",
+    "comments_count": 4,
+    "img_url": "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "p3q8u1v0-5u7y-4v3w-9n0o-1p2q3r4s5t6u",
+    "slug": "catering-equipment-checklist",
+    "title": "Essential Catering Equipment Checklist for Off-Site Events",
+    "description": "Successful off-site catering requires thorough equipment planning. Start with cooking and warming equipment - induction burners, chafing dishes, and portable ovens. Pack serving essentials - utensils, tongs, ladles, and carving sets. Don't forget tableware - plates, glasses, and cutlery appropriate for your menu. Include food transport equipment like cambros, insulated carriers, and refrigeration units. Bring backup equipment for critical items in case of failure. Setup requires tables, tablecloths, signage, and decor elements. Pack a comprehensive toolkit with spare parts, tape, and troubleshooting supplies. Cleaning supplies are crucial - trash bags, sanitizer, and towels. Create detailed packing lists organized by when items are needed (setup, service, cleanup). Always bring 10% more than you think you'll need to account for breakage or unexpected needs. Proper equipment preparation ensures smooth execution no matter the venue.",
+    "category": "Catering Operations",
+    "created_at": "2023-02-11T10:20:00Z",
+    "comments_count": 9,
+    "img_url": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "q4r9v2w1-6v8z-5w4x-0o1p-2q3r4s5t6u7v",
+    "slug": "kosher-catering-guide",
+    "title": "The Complete Guide to Kosher Catering",
+    "description": "Kosher catering follows Jewish dietary laws requiring strict separation of meat and dairy, specific animal slaughter practices, and avoidance of forbidden foods. Meals must be either meat (fleishig) or dairy (milchig) - never mixed. All ingredients require reliable kosher certification. Utensils, cookware, and preparation areas must be kosher-dedicated. Consider whether you'll need glatt kosher (more stringent meat standards) or pas Yisroel (bread requirements). Some events require mashgiach (kosher supervisor) presence. Vegetarian meals under reliable supervision can simplify kosher catering. Communication with clients is essential - Orthodox, Conservative, and Reform Jews may follow different standards. Kosher catering demands careful planning but offers access to an important market segment while respecting religious traditions. Many kosher caterers now creatively blend tradition with contemporary cuisine for sophisticated events.",
+    "category": "Special Diets",
+    "created_at": "2023-11-03T14:50:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "r5s0w3x2-7w9a-6x5y-1p2q-3r4s5t6u7v8w",
+    "slug": "beverage-catering-tips",
+    "title": "Beyond the Bar: Beverage Catering Strategies",
+    "description": "Thoughtful beverage service elevates any catered event. Calculate quantities carefully - typically 2 drinks per person for first hour, then 1 per hour. Offer variety - alcoholic and non-alcoholic, sweet and dry, caffeinated and decaf options. Presentation matters - garnish cocktails, use attractive dispensers for non-alcoholic drinks, and keep everything properly chilled. Consider the season - hot cider in winter, infused waters in summer. Staff appropriately - one bartender per 50 guests for beer/wine, per 35 for full bar. Offer self-serve stations for non-alcoholic options to reduce labor. Signature drinks themed to the event add special touch. Don't forget practicalities - ice quantities, glassware, spill cleanup supplies, and responsible service policies. Beverage catering done well keeps guests happily hydrated while complementing your food service seamlessly.",
+    "category": "Beverage Service",
+    "created_at": "2023-04-29T16:25:00Z",
+    "comments_count": 8,
+    "img_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "s6t1x4y3-8x0b-7y6z-2q3r-4s5t6u7v8w9x",
+    "slug": "catering-staff-training",
+    "title": "Catering Staff Training: Building an Exceptional Team",
+    "description": "Well-trained catering staff are the backbone of successful events. Start with comprehensive onboarding covering service standards, menu knowledge, and safety protocols. Role-play common scenarios like handling dietary requests or unhappy guests. Emphasize the importance of uniform appearance and professional demeanor. Train staff to anticipate needs rather than waiting to be asked. Cross-train team members to handle multiple roles for flexibility. Conduct tastings so staff can knowledgeably describe menu items. Implement clear chains of command and communication systems. Schedule rehearsals for complex events to practice timing and coordination. Foster teamwork through pre-event briefings and post-event debriefs. Invest in ongoing training to refine skills and introduce new techniques. Remember that your staff represents your brand - their competence and attitude directly impact client satisfaction and future business opportunities.",
+    "category": "Catering Management",
+    "created_at": "2023-07-17T11:10:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "t7u2y5z4-9y1c-8z7a-3r4s-5t6u7v8w9x0y",
+    "slug": "dessert-table-ideas",
+    "title": "Creating Showstopping Dessert Tables for Events",
+    "description": "Dessert tables provide a sweet finale that doubles as decor. Create height variation with cake stands and tiered trays for visual interest. Include a mix of textures - creamy, crunchy, chewy - for variety. Offer options for different dietary needs (gluten-free, vegan, nut-free). Themed desserts that match your event create cohesion. Label items clearly with elegant signage. Balance familiar favorites with a few unique creations. Consider interactive elements like a chocolate fountain or make-your-own sundae bar. Practical considerations: ensure proper refrigeration for items needing it, and have serving utensils for each dessert. A well-designed dessert table becomes a focal point that guests will remember and photograph. For large events, position multiple smaller tables to prevent crowding. Sweet endings leave lasting positive impressions of your catered event.",
+    "category": "Event Design",
+    "created_at": "2023-10-08T15:40:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "u8v3z6a5-0z2d-9a8b-4s5t-6u7v8w9x0y1z",
+    "slug": "catering-marketing-strategies",
+    "title": "Effective Marketing Strategies for Catering Businesses",
+    "description": "Successful catering marketing highlights your unique value proposition. Develop a strong visual brand with professional food photography and cohesive design. Leverage social media with behind-the-scenes content, client testimonials, and beautiful dish showcases. Network with event planners, venues, and complementary vendors. Offer tastings as marketing events for potential clients. Collect and showcase glowing reviews across platforms. Content marketing through blogs and videos establishes expertise. Targeted advertising can reach specific niches like wedding or corporate clients. Email newsletters keep you top-of-mind with past clients. Participate in bridal shows or business expos relevant to your market. Develop referral programs to incentivize happy clients to recommend you. Track which marketing channels bring the best ROI to focus your efforts. Consistent, authentic marketing that demonstrates your culinary artistry and reliability builds a strong catering business reputation.",
+    "category": "Business Tips",
+    "created_at": "2023-01-23T09:15:00Z",
+    "comments_count": 10,
+    "img_url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "v9w4a7b6-1a3e-0b9c-5t6u-7v8w9x0y1z2a",
+    "slug": "picnic-catering-guide",
+    "title": "The Ultimate Guide to Picnic Catering",
+    "description": "Picnic catering combines casual charm with thoughtful logistics. Opt for portable, finger-friendly foods that travel well - sandwiches, skewers, and individually packaged items. Include refreshing salads and crunchy snacks for variety. Presentation matters - use baskets, wooden crates, or branded boxes for rustic appeal. Don't forget practicalities: wet wipes, napkins, and trash bags. For large groups, set up buffet-style stations with checkered tablecloths. Consider the weather - avoid mayo-based items in heat, include thermoses of hot drinks in cold. Provide blankets or rent picnic tables depending on formality. Beverage service might include mason jar glasses and dispensers of lemonade or iced tea. Picnic catering works beautifully for team-building events, family reunions, or romantic outings when you want to create carefree, memorable dining experiences outdoors.",
+    "category": "Outdoor Catering",
+    "created_at": "2023-06-05T12:30:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "w0x5b8c7-2b4f-1c0d-6u7v-8w9x0y1z2a3b",
+    "slug": "vegan-catering-challenges",
+    "title": "Overcoming Challenges in Vegan Catering",
+    "description": "Vegan catering satisfies growing demand while presenting unique challenges. Protein variety is crucial - incorporate legumes, tofu, tempeh, and seitan creatively. Umami flavors from mushrooms, nutritional yeast, and fermented foods add depth. Texture variety prevents meals feeling monotonous. Presentation should be vibrant and appetizing - vegan food's visual appeal is especially important. Accommodate additional restrictions like nut-free or soy-free within vegan parameters. Train staff to knowledgeably explain ingredients and preparations. Cross-contamination concerns require careful attention with shared kitchens. Some guests may be skeptical - win them over with delicious, satisfying dishes that don't feel like compromises. Stay updated on new vegan products and techniques as the market evolves. Successful vegan catering demonstrates that plant-based meals can be indulgent, varied, and celebration-worthy for all guests, not just vegans.",
+    "category": "Special Diets",
+    "created_at": "2023-09-14T14:20:00Z",
+    "comments_count": 8,
+    "img_url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "x1y6c9d8-3c5g-2d1e-7v8w-9x0y1z2a3b4c",
+    "slug": "late-night-catering-ideas",
+    "title": "Late-Night Catering: Keeping the Party Going",
+    "description": "Late-night catering provides energy for dancing and celebration. Focus on hearty, flavorful bites that satisfy after hours of activity. Mini comfort foods like grilled cheese, sliders, or loaded fries hit the spot. Interactive stations like nacho bars or poutine setups engage guests. Breakfast-for-dinner items like mini pancakes or breakfast burritos add fun surprise. Include vegetarian and lighter options for balance. Presentation should be casual and easy to eat while mingling. Consider the alcohol served earlier and provide substantial, greasy options that help soak it up. Service should be quick and efficient to keep the party momentum. Late-night food often becomes the most memorable part of an event, creating joyful, communal moments as guests refuel together during the celebration's peak.",
+    "category": "Event Catering",
+    "created_at": "2023-12-15T22:00:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "y2z7d0e9-4d6h-3e2f-8w9x-0y1z2a3b4c5d",
+    "slug": "catering-invoice-templates",
+    "title": "Professional Catering Invoices: Templates & Tips",
+    "description": "Well-designed catering invoices ensure prompt payment while reinforcing your professionalism. Include clear breakdowns of food costs, staffing, equipment rentals, and additional fees. Specify payment terms and due dates prominently. Use itemized lists rather than lump sums when possible. Include your business license/tax information for client records. Design templates that reflect your brand with logo and colors. Digital invoices with online payment options speed processing. Detailed invoices also serve as documentation if disputes arise. For large events, consider installment billing with deposits. Always provide receipts for payments received. Keep copies of all invoices organized by event date for easy reference. Clear, comprehensive invoicing demonstrates your business acumen and makes the financial aspect of catering as smooth as your culinary service.",
+    "category": "Business Tips",
+    "created_at": "2023-03-07T10:45:00Z",
+    "comments_count": 4,
+    "img_url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "z3a8e1f0-5e7j-4f3g-9x0y-1z2a3b4c5d6e",
+    "slug": "allergy-friendly-catering",
+    "title": "Allergy-Friendly Catering: Keeping Guests Safe",
+    "description": "Food allergy catering requires rigorous protocols to prevent cross-contact and ensure guest safety. Train staff thoroughly on allergen awareness and emergency procedures. Implement separate preparation areas and dedicated utensils for common allergens like nuts, dairy, and gluten. Label all items clearly with allergen information. Communicate with clients well in advance about guest dietary needs. Consider color-coding systems to identify allergen-free items. Have emergency medication like epinephrine available and staff trained in its use. Avoid bulk containers where allergens might mix accidentally. When in doubt about an ingredient's safety, err on the side of caution. Thoughtful allergy catering protects vulnerable guests while allowing them to participate fully in your event's culinary experience without fear or exclusion.",
+    "category": "Special Diets",
+    "created_at": "2023-08-22T13:15:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "a4b9f2g1-6f8k-5g4h-0y1z-2a3b4c5d6e7f",
+    "slug": "catering-insurance-guide",
+    "title": "Catering Insurance: Protecting Your Business",
+    "description": "Comprehensive insurance is crucial for catering businesses facing unique risks. General liability covers accidents like foodborne illness claims or property damage. Product liability protects against issues arising from the food itself. Commercial auto insurance covers delivery vehicles. Equipment coverage safeguards your valuable cooking and serving tools. Worker's compensation is essential for staff injuries in high-heat, sharp-object environments. Liquor liability is critical if you serve alcohol. Consider business interruption insurance for canceled events. Review policies annually as your business grows - many caterers start underinsured. Document all incidents thoroughly regardless of severity. Work with an agent experienced in food service to identify potential gaps. Proper insurance provides peace of mind, knowing you're protected when unexpected challenges arise in your catering operations.",
+    "category": "Business Tips",
+    "created_at": "2023-05-30T16:50:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "b5c0g3h2-7g9l-6h5i-1z2a-3b4c5d6e7f8g",
+    "slug": "tea-party-catering",
+    "title": "Elevated Tea Party Catering for Modern Events",
+    "description": "Contemporary tea party catering blends tradition with innovation for memorable events. Offer a selection of premium loose-leaf teas with proper brewing instructions. Tiered stands should include both classic (scones, finger sandwiches) and creative (matcha macarons, savory shortbread) items. Balance sweet and savory components artfully. Consider dietary preferences with gluten-free and vegan options. Presentation should be delicate and photogenic - fine china, linen napkins, and floral accents. Timing matters - serve sandwiches first, then scones, finishing with sweets. Include interactive elements like a tea blending station or biscuit decorating. For large events, create multiple small seating areas rather than one long table. Modern tea parties work beautifully for bridal showers, baby showers, or sophisticated corporate gatherings wanting a refined but relaxed atmosphere.",
+    "category": "Themed Catering",
+    "created_at": "2023-10-12T11:30:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "c6d1h4i3-8h0m-7i6j-2a3b-4c5d6e7f8g9h",
+    "slug": "catering-software-tools",
+    "title": "Essential Software Tools for Catering Businesses",
+    "description": "Modern catering operations benefit from specialized software streamlining complex tasks. Event management tools handle bookings, client details, and calendars. Menu planning software helps with costing, ingredient scaling, and dietary tagging. Inventory systems track stock levels and automate ordering. POS systems process payments at events efficiently. Customer relationship management (CRM) tools organize client communications and follow-ups. Accounting software integrates with other systems for financial tracking. Employee scheduling apps optimize staff deployment. Some platforms offer all-in-one solutions while others specialize - choose based on your business size and needs. Mobile accessibility is crucial for on-the-go catering teams. Implement training to ensure staff adoption. The right software stack saves time, reduces errors, and provides valuable business insights to grow your catering operation strategically.",
+    "category": "Business Tips",
+    "created_at": "2023-02-14T09:20:00Z",
+    "comments_count": 8,
+    "img_url": "https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "d7e2i5j4-9i1n-8j7k-3b4c-5d6e7f8g9h0i",
+    "slug": "bbq-catering-secrets",
+    "title": "BBQ Catering Secrets for Perfect Outdoor Events",
+    "description": "Successful BBQ catering masters both flavor and logistics. Low-and-slow cooking requires careful timing - start meats hours before service. Maintain consistent temperatures with quality smokers and backup fuel. Offer a variety of proteins (brisket, ribs, chicken) and vegetarian options (smoked portobellos, jackfruit). Signature sauces served on the side let guests customize. Balance rich meats with fresh slaws, beans, and cornbread. Presentation should be rustic but tidy - butcher paper, wooden boards, and metal trays. For large events, set up carving stations where staff slice to order. Accommodate varying guest counts by having both pre-plated and buffet options ready. Practical considerations: plenty of napkins, wet wipes, and trash receptacles for messy fare. Great BBQ catering creates relaxed, communal dining where the food speaks for itself.",
+    "category": "Outdoor Catering",
+    "created_at": "2023-07-24T18:00:00Z",
+    "comments_count": 9,
+    "img_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "e8f3j6k5-0j2o-9k8l-4c5d-6e7f8g9h0i1j",
+    "slug": "plating-techniques",
+    "title": "Advanced Plating Techniques for Catering Professionals",
+    "description": "Elevated plating transforms catering presentations into culinary art. Master the clock method - protein at 6 o'clock, starch at 2, vegetables at 10. Use odd numbers of items (3 scallops, 5 asparagus) for visual appeal. Create height with stacked components or vertical garnishes. Sauce artistry includes dots, swipes, and pools using squeeze bottles. Edible flowers, microgreens, and herb sprigs add freshness and color. Negative space on plates prevents overcrowding. Consider color contrast between food and tableware. For buffets, garnish platters generously to maintain appeal through service. Consistency across multiple plates is crucial - use measuring tools if needed. While elaborate plating works for plated events, buffet items need bolder presentations that hold up. Beautiful plating demonstrates skill and care that guests notice and appreciate.",
+    "category": "Catering Techniques",
+    "created_at": "2023-11-18T14:10:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "f9g4k7l6-1k3p-0l9m-5d6e-7f8g9h0i1j2k",
+    "slug": "charity-event-catering",
+    "title": "Catering Charity Events: Balancing Budget & Impact",
+    "description": "Charity event catering requires balancing mission with practicality. Consider donating a portion of proceeds or offering discounted rates for worthy causes. Simpler presentations reduce costs without sacrificing quality. Hearty, comforting foods often suit charity events better than fussy cuisine. Bulk service styles like buffets or family-style reduce staffing needs. Partner with other vendors to share costs - a win-win for cross-promotion. Highlight how your involvement supports the cause in event materials. Be flexible with last-minute guest count changes common at fundraisers. Offer add-ons like dessert auctions where guests pay extra for premium items. Staff should be briefed on the cause to represent it knowledgeably. While charity catering may have tighter budgets, the exposure and goodwill generated can lead to future paid business from attendees impressed by your generosity and quality.",
+    "category": "Nonprofit Catering",
+    "created_at": "2023-04-05T12:30:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "g0h5l8m7-2l4q-1m0n-6e7f-8g9h0i1j2k3l",
+    "slug": "catering-for-film-sets",
+    "title": "Catering for Film Sets: Feeding Hungry Crews",
+    "description": "Film set catering presents unique challenges with long hours and demanding conditions. Provide hearty, energizing food that sustains through 12+ hour shoots. Set up efficient service lines to feed hundreds quickly during short breaks. Offer all-day snacks and hydration stations between meals. Accommodate diverse dietary needs common in creative industries. Weather-proof your setup for outdoor locations. Late-night shoots require substantial midnight meals. Develop portable systems that work without proper kitchen facilities. Build relationships with location managers for advance notice of needs. Crew appreciation shows in food quality - they remember who fed them well. While logistically demanding, film catering offers steady work during productions and opportunities to network within the entertainment industry. Adaptability and stamina are key to success in this niche catering market.",
+    "category": "Industry Catering",
+    "created_at": "2023-09-09T07:00:00Z",
+    "comments_count": 4,
+    "img_url": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "h1i6m9n8-3m5r-2n1o-7f8g-9h0i1j2k3l4m",
+    "slug": "fusion-catering-trends",
+    "title": "Fusion Catering: Blending Culinary Traditions Creatively",
+    "description": "Fusion catering artfully combines elements from different culinary traditions for innovative menus. Successful fusion respects source cultures while creating harmonious new flavors. Consider Korean-Mexican tacos, Indian-inspired pizzas, or sushi burritos. Balance is key - one cuisine should dominate with subtle accents from another. Ensure ingredient combinations make sense texturally and flavor-wise. Train staff to explain fusion concepts to guests. Presentation can blend cultural elements creatively - dim sum served on Spanish tapas plates, for example. Be mindful of cultural appropriation concerns - research traditions thoroughly and credit inspirations. Fusion works particularly well for cosmopolitan audiences and multicultural events. When done respectfully and skillfully, fusion catering surprises and delights guests with unexpected but delicious combinations that broaden culinary horizons.",
+    "category": "Menu Trends",
+    "created_at": "2023-12-22T19:30:00Z",
+    "comments_count": 8,
+    "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "i2j7n0o9-4n6s-3o2p-8g9h-0i1j2k3l4m5n",
+    "slug": "catering-display-ideas",
+    "title": "Creative Food Display Ideas for Catered Events",
+    "description": "Innovative food displays transform catering into immersive experiences. Use unexpected levels - hang herbs from above or elevate items on stacked crates. Incorporate natural elements like slate stones, tree rounds, or fresh produce as decor. Themed displays might include library stacks for book launches or floral walls for garden parties. Interactive elements like build-your-own stations engage guests. Lighting dramatically affects presentation - spotlights highlight signature items, while soft glow creates ambiance. Color coordination between food and decor creates Instagram-worthy moments. For large events, create multiple smaller displays to prevent crowding. Balance aesthetics with practicality - ensure guests can access food easily. Exceptional displays demonstrate creativity and attention to detail that guests remember long after the event ends.",
+    "category": "Event Design",
+    "created_at": "2023-03-28T16:45:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "j3k8o1p0-5o7t-4p3q-9h0i-1j2k3l4m5n6o",
+    "slug": "catering-for-athletic-events",
+    "title": "Fueling Performance: Catering for Athletic Events",
+    "description": "Athletic event catering requires specialized nutrition knowledge. Focus on lean proteins, complex carbs, and hydration for energy and recovery. Timing matters - pre-event meals should be easily digestible, while post-event can be heartier. Avoid heavy, greasy foods that might cause discomfort. Include familiar staples alongside performance-enhancing options. Presentation should be quick and accessible for athletes on tight schedules. Accommodate various dietary approaches within teams. For endurance events, provide mid-race fuel like bananas or energy gels. Recovery foods with protein-carb balance are crucial post-competition. Work closely with coaches or nutritionists to understand team needs. Weather considerations are important - extra hydration in heat, warming options in cold. Well-planned athletic catering contributes directly to team performance and shows your understanding of their unique requirements.",
+    "category": "Sports Catering",
+    "created_at": "2023-08-15T11:15:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "k4l9p2q1-6p8u-5q4r-0i1j-2k3l4m5n6o7p",
+    "slug": "catering-for-seniors",
+    "title": "Thoughtful Catering for Senior Events",
+    "description": "Senior event catering requires special considerations for comfort and accessibility. Choose easy-to-chew foods without tough textures. Minimize salt while maximizing flavor with herbs and spices. Smaller portions prevent waste and are easier to handle. Finger foods should be truly one-bite with no dripping or crumbling. Include nostalgic favorites that spark happy memories. Ensure clear signage with large print for buffet items. Seating should be ample with easy access. Staff should be patient and prepared to assist discreetly. Consider timing - earlier events often work better for senior energy levels. Hydration is crucial - provide attractive water stations. Music and noise levels should allow for conversation. Thoughtful senior catering creates welcoming, dignified experiences that honor guests' lifetimes of experiences while meeting their current needs gracefully.",
+    "category": "Community Catering",
+    "created_at": "2023-05-19T13:20:00Z",
+    "comments_count": 4,
+    "img_url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "l5m0q3r2-7q9v-6r5s-1j2k-3l4m5n6o7p8q",
+    "slug": "catering-for-music-festivals",
+    "title": "High-Volume Catering for Music Festivals",
+    "description": "Music festival catering operates at massive scale under challenging conditions. Streamlined menus with few components allow efficient high-volume production. Durable, portable packaging withstands outdoor conditions. Implement cashless payment systems to reduce lines. Strategically locate concessions to serve crowds without blocking stage views. Offer quick-energy foods that festival-goers can eat while standing. Hydration stations are crucial, especially in summer heat. Weatherproof your setup with tents and secure equipment. Coordinate closely with event organizers for optimal placement and timing. Staffing requires extra personnel for peak meal times. Sustainability efforts like compostable packaging resonate with festival audiences. While demanding, festival catering offers exposure to thousands of potential new customers and the vibrant energy of live music events.",
+    "category": "Festival Catering",
+    "created_at": "2023-10-26T14:00:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "m6n1r4s3-8r0w-7s6t-2k3l-4m5n6o7p8q9r",
+    "slug": "catering-for-weddings",
+    "title": "Wedding Catering: Creating Memorable Experiences",
+    "description": "Wedding catering balances tradition with the couple's unique personality. Start with thorough consultations to understand their vision and must-have dishes. Offer tasting sessions to finalize menu selections. Coordinate timing carefully with the ceremony schedule and photographer. Presentation should match the wedding's formality and theme. Accommodate all dietary needs without drawing attention to restrictions. Staff should be unobtrusive yet attentive during emotional moments. Signature cocktails named for the couple add personal touch. Late-night snacks keep energy up for dancing. Work closely with other vendors for seamless transitions between events. Provide vendor meals that are substantial but quick to eat. Exceptional wedding catering becomes part of the love story couples and guests remember fondly for years.",
+    "category": "Wedding Catering",
+    "created_at": "2023-02-07T10:30:00Z",
+    "comments_count": 12,
+    "img_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "n7o2s5t4-9s1x-8t7u-3l4m-5n6o7p8q9r0s",
+    "slug": "catering-for-corporate-events",
+    "title": "Corporate Catering: Professional Dining Experiences",
+    "description": "Corporate catering requires balancing professionalism with culinary creativity. Understand the event's purpose - working lunches need efficiency while client dinners demand wow factor. Brand alignment matters - tech companies may want cutting-edge cuisine while law firms prefer classic sophistication. Dietary accommodations should be comprehensive but discreet. Presentation must be polished with attention to detail. Timing is crucial for meetings with tight agendas. Consider logistics - foods that are easy to eat while taking notes for working meals. For large conferences, efficient service lines prevent delays. Staff should dress and act professionally to match corporate standards. Billing should be clear with all expected details for client reimbursement. Exceptional corporate catering becomes an invisible foundation that supports business objectives through seamless hospitality.",
+    "category": "Corporate Catering",
+    "created_at": "2023-07-03T12:45:00Z",
+    "comments_count": 9,
+    "img_url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "o8p3t6u5-0t2y-9u8v-4m5n-6o7p8q9r0s1t",
+    "slug": "catering-for-art-gallery-openings",
+    "title": "Art Gallery Catering: Complementing the Exhibition",
+    "description": "Gallery opening catering should enhance rather than compete with the artwork. Opt for minimalist presentations that don't distract from the pieces. Finger foods that don't require plates free guests to view art while eating. Consider the exhibition theme when designing menus - abstract art might inspire avant-garde canapés while classical paintings suggest refined hors d'oeuvres. Beverage service should prioritize spill prevention near valuable art. Staff should dress in gallery-appropriate black attire. Lighting should highlight the art, with separate food stations adequately but subtly lit. Coordinate with curators to understand traffic flow and prohibited areas. Gallery catering requires discretion - the art remains the star while your service facilitates an elegant viewing experience that keeps guests refreshed and engaged.",
+    "category": "Arts Catering",
+    "created_at": "2023-11-29T18:15:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "p9q4u7v6-1u3z-0v9w-5n6o-7p8q9r0s1t2u",
+    "slug": "catering-for-destination-weddings",
+    "title": "Destination Wedding Catering: Overcoming Logistics",
+    "description": "Destination wedding catering presents unique logistical challenges. Research local ingredient availability and seasonality well in advance. Understand what equipment will be available onsite versus what you must bring. Hire local staff for basic positions to reduce travel costs. Ship non-perishable specialty items ahead. Have contingency plans for weather at outdoor venues. Simplify menus to reduce reliance on hard-to-source ingredients. Build extra time into schedules for unexpected delays. Work closely with local vendors who know the area's resources. Consider customs regulations when transporting food across borders. Destination weddings allow for incorporating local flavors that give events authentic sense of place. While complex, successful destination catering creates unforgettable experiences in spectacular settings.",
+    "category": "Wedding Catering",
+    "created_at": "2023-04-14T15:50:00Z",
+    "comments_count": 7,
+    "img_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "q0r5v8w7-2v4a-1w0x-6o7p-8q9r0s1t2u3v",
+    "slug": "catering-for-book-launches",
+    "title": "Literary Catering: Themed Menus for Book Launches",
+    "description": "Book launch catering offers creative opportunities to connect food with literature. Design menus inspired by the book's setting or themes - Victorian teas for historical fiction, tropical flavors for beach reads. Consider the author's personal favorites or homeland cuisine. Presentation can incorporate literary elements - menu cards resembling book pages, food displayed on stacked books. For children's books, playful shaped foods delight young guests. Quiet finger foods allow for readings without distraction. Themed signature cocktails named for characters add fun touch. Work with publicists to understand the desired atmosphere - scholarly or celebratory. Book launch catering becomes an extension of the storytelling, creating multisensory experiences that deepen guests' connection to the work being celebrated.",
+    "category": "Themed Catering",
+    "created_at": "2023-09-21T17:30:00Z",
+    "comments_count": 6,
+    "img_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "r1s6w9x8-3w5b-2x1y-7p8q-9r0s1t2u3v4w",
+    "slug": "catering-for-product-launches",
+    "title": "Product Launch Catering: Branding Through Food",
+    "description": "Product launch catering should reflect and enhance the brand being introduced. For tech products, think futuristic presentations with interactive elements. Food styling can subtly mimic product colors or shapes. Consider how flavors might metaphorically represent product features - bold for powerful tools, subtle for refined items. Beverage stations can showcase product benefits through creative names or ingredients. Staff should be knowledgeable enough to answer basic product questions. Digital displays can integrate food service with product demos. Themed decor creates immersive environments where food becomes part of the branding experience. Product launch catering goes beyond feeding guests to becoming an experiential marketing tool that reinforces the product's positioning through thoughtful culinary branding.",
+    "category": "Corporate Catering",
+    "created_at": "2023-01-27T11:20:00Z",
+    "comments_count": 8,
+    "img_url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "s2t7x0y9-4x6c-3y2z-8q9r-0s1t2u3v4w5x",
+    "slug": "catering-for-baby-showers",
+    "title": "Baby Shower Catering: Sweet Celebrations",
+    "description": "Baby shower catering balances whimsy with sophistication for memorable events. Themed foods like onesie-shaped cookies or baby bottle cupcakes add playful touches. Include both hearty and light options for mixed guest groups. Pastel color schemes carried through foods create cohesive aesthetics. Consider the mom-to-be's cravings and aversions when planning menus. Interactive elements like decorate-your-own onesie cookie stations entertain guests. Presentation should be photogenic for this highly shared-on-social-media event. Accommodate any pregnancy dietary restrictions without highlighting them. Timing is usually mid-morning or afternoon, so substantial hors d'oeuvres often work better than full meals. Baby shower catering creates a joyful, celebratory atmosphere that honors the upcoming arrival while pampering the guest of honor.",
+    "category": "Family Catering",
+    "created_at": "2023-06-09T14:10:00Z",
+    "comments_count": 5,
+    "img_url": "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
   }
 ]
