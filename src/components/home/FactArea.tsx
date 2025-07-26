@@ -91,16 +91,14 @@ export default function FactArea() {
       >
         <div className="w-full h-full grid place-items-center">
           <div className="modal-body w-[90%] md:w-2xl lg:w-4xl h-0 pb-[56.25%] relative overflow-hidden">
-            {isOpen && (
-              <iframe
-                className="w-full h-full absolute top-0 left-0"
-                src="https://www.youtube.com/embed/GcDXopVBN-k?si=oV9Q3CTAuSXaKcyd"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen={false}
-              ></iframe>
-            )}
+            <iframe
+              className="w-full h-full absolute top-0 left-0"
+              src="https://www.youtube.com/embed/GcDXopVBN-k?si=oV9Q3CTAuSXaKcyd"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen={false}
+            ></iframe>
           </div>
         </div>
       </div>
