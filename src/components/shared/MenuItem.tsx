@@ -13,7 +13,7 @@ type MenuItemProps = {
 
 export default function MenuItem(props: MenuItemProps) {
   // props destructuring
-  const { description, imgURL, price, title, type } = props;
+  const { description, price, title, type } = props;
 
   // generate a random number 1 to 10
   const randomNumber = (Math.floor(Math.random() * 10) + 1)

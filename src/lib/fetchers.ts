@@ -2,7 +2,7 @@ import { Menu } from "@/interfaces/menu";
 import { Post } from "@/interfaces/post";
 
 // site url
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 /**
  * Get catering menu items
