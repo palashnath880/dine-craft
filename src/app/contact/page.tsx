@@ -5,7 +5,7 @@ import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 export default function page() {
   return (
     <>
-      <PageHeader name="Contact" />
+      <PageHeader name="Contact" bgImg="/img/contact-bg.webp" />
 
       <section className="py-16">
         <div className="container">
