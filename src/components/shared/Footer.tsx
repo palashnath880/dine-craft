@@ -53,8 +53,8 @@ export default function Footer() {
         }}
       >
         <div className="container mx-auto py-10">
-          <div className="grid grid-cols-12 gap-5">
-            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+          <div className="grid grid-cols-12 gap-5 max-lg:gap-y-10">
+            <div className="col-span-12 lg:col-span-3">
               <div className="flex flex-col gap-4 items-start">
                 <Link href={"/"}>
                   <h1 className="text-primary font-playball text-4xl font-bold">
@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
 
             {/* Special Facilities */}
-            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+            <div className="col-span-12 md:col-span-4 lg:col-span-3">
               <div className="flex flex-col gap-4 items-start">
                 <h4 className="text-xl font-semibold">Special Facilities</h4>
                 <div className="flex flex-col gap-2.5">
@@ -132,7 +132,7 @@ export default function Footer() {
             </div>
 
             {/* contact us */}
-            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+            <div className="col-span-12 md:col-span-4 lg:col-span-3">
               <div className="flex flex-col gap-4 items-start">
                 <h4 className="text-xl font-semibold">Contact Us</h4>
                 <div className="flex flex-col gap-2.5">
@@ -157,7 +157,7 @@ export default function Footer() {
             </div>
 
             {/* social gallery */}
-            <div className="col-span-3 max-md:col-span-2 max-sm:col-span-1">
+            <div className="col-span-12 md:col-span-4 lg:col-span-3">
               <div className="flex flex-col gap-4 items-start">
                 <h4 className="text-xl font-semibold">Social Gallery</h4>
                 <div className="grid grid-cols-3 gap-3 w-full">
@@ -230,9 +230,9 @@ export default function Footer() {
         {/* copyright area */}
         <div className="bg-secondary">
           <div className="container">
-            <div className="grid grid-cols-12 gap-5 py-5">
-              <div className="col-span-6 text-left ">
-                <span className="text-gray-100 flex items-center">
+            <div className="grid grid-cols-6 md:grid-cols-12 gap-5 max-md:py-8 py-5">
+              <div className="col-span-6 md:text-left">
+                <span className="text-gray-100 flex items-center max-md:justify-center">
                   <Link
                     href={"/"}
                     className="flex gap-2 items-center underline"
@@ -243,9 +243,9 @@ export default function Footer() {
                   , All right reserved.
                 </span>
               </div>
-              <div className="col-span-6 text-right">
-                <span className="text-gray-100 flex items-center gap-1.5 justify-end">
-                  Designed By
+              <div className="col-span-6 md:text-right">
+                <span className="text-gray-100 flex items-center gap-1.5 justify-end max-md:justify-center">
+                  Developed By
                   <a
                     className="underline"
                     href="https://palashnath.netlify.app"
