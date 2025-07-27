@@ -42,7 +42,7 @@ export default function BlogItem(props: Post) {
         <div className="mx-4 -mt-8 flex flex-col rounded-md bg-secondary px-3 py-4 z-10 flex-1">
           <div className="text-primary flex flex-col h-full">
             <div className="flex flex-col gap-2 flex-1">
-              <h1 className="text-gray-100 text-lg font-semibold">
+              <h1 className="text-gray-100 max-md:text-base text-lg font-semibold">
                 <Link href={`/blogs/${slug}`}>{title}</Link>
               </h1>
               <p className="text-gray-400 text-sm">{desc}</p>
