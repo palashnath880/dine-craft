@@ -21,7 +21,7 @@ export default function MenuItem(props: MenuItemProps) {
     .padStart(2, "0");
 
   return (
-    <div className="max-md:col-span-12 col-span-6">
+    <div className="col-span-12 md:col-span-6">
       <div className="flex items-center gap-5 w-full">
         <Image
           draggable={false}
@@ -33,8 +33,8 @@ export default function MenuItem(props: MenuItemProps) {
         />
         <div className="flex-1 flex flex-col gap-3">
           <div className="flex justify-between items-center">
-            <h4 className="text-2xl font-semibold">{title}</h4>
-            <h4 className="text-primary font-playball text-2xl font-bold">
+            <h4 className="text-xl sm:text-2xl font-semibold">{title}</h4>
+            <h4 className="text-primary font-playball text-xl sm:text-2xl font-bold">
               ${price}
             </h4>
           </div>

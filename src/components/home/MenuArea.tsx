@@ -52,7 +52,7 @@ export default async function MenuArea() {
           </ul>
 
           <div className="tab-content">
-            <div className="grid grid-cols-12 gap-x-14 gap-y-10">
+            <div className="grid grid-cols-12 md:gap-x-14 gap-y-10">
               {filteredMenus.map((item) => (
                 <MenuItem key={item.id} {...item} />
               ))}
