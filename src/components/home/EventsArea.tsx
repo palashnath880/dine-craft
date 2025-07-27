@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import SectionHeading from "./SectionHeading";
 
 export default function EventsArea() {
   const tabs = [
@@ -23,18 +24,14 @@ export default function EventsArea() {
   return (
     <section className="py-16" id="events">
       <div className="container">
-        <div className="flex flex-col items-center gap-5">
-          <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
-            Latest Events
-          </small>
-          <h1 className="font-bold font-playball text-5xl">
-            Our Social & Professional Events Gallery
-          </h1>
-        </div>
+        <SectionHeading
+          title="Latest Events"
+          subtitle="Our Social & Professional Events Gallery"
+        />
 
         <div className="mt-16 flex flex-col gap-10">
           {/* tab buttons */}
-          <ul className="flex justify-center gap-4 items-center">
+          <ul className="flex justify-center gap-4 items-center flex-wrap">
             {tabs.map(({ label }, index) => (
               <li
                 className="btn-primary border border-primary !py-1.5"
@@ -49,7 +46,7 @@ export default function EventsArea() {
           <div className="grid grid-cols-12 gap-5">
             {[...Array(8)].map((_, index) => (
               <div
-                className="col-span-12 md:col-span-6 lg:col-span-3 cursor-pointer group"
+                className="col-span-6 lg:col-span-3 cursor-pointer group"
                 key={index}
               >
                 <div className="relative aspect-square rounded-lg overflow-hidden">

@@ -8,7 +8,7 @@ export default function AboutArea() {
     <section className="py-20" id="about">
       <div className="container">
         <div className="grid grid-cols-12 gap-20 items-center">
-          <div className="col-span-5">
+          <div className="max-lg:hidden col-span-5">
             <Image
               fetchPriority="low"
               width={400}
@@ -20,12 +20,12 @@ export default function AboutArea() {
             />
           </div>
 
-          <div className="col-span-7">
+          <div className="col-span-12 md:col-span-7">
             <div className="flex flex-col items-start gap-5">
               <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
                 About Us
               </small>
-              <h1 className="font-playball text-5xl">
+              <h1 className="font-playball text-5xl max-md:text-3xl">
                 Trusted By 200 + satisfied clients
               </h1>
               <p className="text-gray-500">
@@ -36,7 +36,7 @@ export default function AboutArea() {
                 reprehendeerit in voluptate velit esse cillum dolore.
               </p>
 
-              <div className="grid grid-cols-2 w-full space-x-5 space-y-6">
+              <div className="grid max-sm:grid-cols-1 grid-cols-2 w-full space-x-5 space-y-6">
                 <div className="col-span-1">
                   <p className="font-semibold flex gap-2 items-center">
                     <FaShare className="text-primary" />

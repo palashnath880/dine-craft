@@ -33,24 +33,24 @@ export default function FactArea() {
       <section className="py-20 bg-gray-50">
         <div className="container">
           <div className="grid grid-cols-12 gap-14 items-center">
-            <div className="col-span-7">
+            <div className=" col-span-12 lg:col-span-7">
               <div className="grid grid-cols-12 gap-5">
-                <div className="col-span-4 bg-primary rounded-xl pb-10 pt-7">
-                  <div className="flex flex-col gap-5 p-4 justify-start items-center">
+                <div className="max-md:col-span-12 col-span-4 bg-primary rounded-xl pb-10 pt-7">
+                  <div className="flex flex-col gap-5 p-4 justify-start items-center text-center">
                     <FaUsers className="text-white text-7xl" />
                     <h1 className="text-5xl font-playball font-bold">689</h1>
                     <p className="uppercase font-semibold">Happy Customers</p>
                   </div>
                 </div>
-                <div className="col-span-4 bg-primary rounded-xl pb-10 pt-7">
-                  <div className="flex flex-col gap-5 p-4 justify-start items-center">
+                <div className="max-md:col-span-12 col-span-4 bg-primary rounded-xl pb-10 pt-7">
+                  <div className="flex flex-col gap-5 p-4 justify-start items-center text-center">
                     <FaUsersCog className="text-white text-7xl" />
                     <h1 className="text-5xl font-playball font-bold">107</h1>
                     <p className="uppercase font-semibold">Expert Chefs</p>
                   </div>
                 </div>
-                <div className="col-span-4 bg-primary rounded-xl pb-10 pt-7">
-                  <div className="flex flex-col gap-5 p-4 justify-start items-center">
+                <div className="max-md:col-span-12 col-span-4 bg-primary rounded-xl pb-10 pt-7">
+                  <div className="flex flex-col gap-5 p-4 justify-start items-center text-center">
                     <FaCheck className="text-white text-7xl" />
                     <h1 className="text-5xl font-playball font-bold">253</h1>
                     <p className="uppercase font-semibold">Events Complete</p>
@@ -59,7 +59,7 @@ export default function FactArea() {
               </div>
             </div>
 
-            <div className="col-span-5">
+            <div className="col-span-12 lg:col-span-5">
               <div className="aspect-[16/12] w-full relative rounded-lg overflow-hidden">
                 <Image
                   width={400}

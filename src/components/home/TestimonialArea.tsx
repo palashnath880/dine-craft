@@ -65,8 +65,8 @@ export default function TestimonialArea() {
   return (
     <section className="py-16" id="testimonial">
       <div className="container">
-        <div className="flex gap-10 bg-primary/10 shadow-xl px-8 py-10 rounded-xl">
-          <div className="flex-1/5">
+        <div className="flex max-lg:flex-col max-lg:gap-20 gap-10 bg-primary/10 shadow-xl max-sm:px-4 px-8 py-10 rounded-xl">
+          <div className="lg:flex-1/5">
             <div className="flex flex-col gap-2 items-start">
               <small
                 className={`font-semibold uppercase border-2 border-primary rounded-full px-4 py-1 text-sm`}
@@ -77,7 +77,7 @@ export default function TestimonialArea() {
                 What Our Customers says!
               </h5>
 
-              <p className="text-secondary/70 mt-10">
+              <p className="text-secondary/70 max-lg:mt-5 mt-10">
                 {`Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -85,7 +85,7 @@ export default function TestimonialArea() {
               </p>
             </div>
           </div>
-          <div className="flex-4/5">
+          <div className="lg:flex-4/5">
             <div className="w-full">
               <div ref={containerRef}>
                 <Slider
@@ -99,6 +99,22 @@ export default function TestimonialArea() {
                   adaptiveHeight={false}
                   arrows={false}
                   ref={sliderRef}
+                  responsive={[
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow: 2,
+                        initialSlide: 2,
+                      },
+                    },
+                    {
+                      breakpoint: 500,
+                      settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                      },
+                    },
+                  ]}
                 >
                   {data.map((item, index) => (
                     <div

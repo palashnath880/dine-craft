@@ -11,7 +11,7 @@ export default function TeamArea() {
           title="Our Team"
           subtitle="We have experienced chef Team"
         />
-        <div className="grid grid-cols-12 gap-5 mt-16">
+        <div className="grid max-md:grid-cols-6 max-sm:grid-cols-3 grid-cols-12 gap-5 mt-16">
           {[...Array(4)].map((_, index) => (
             <TeamCard
               key={index}

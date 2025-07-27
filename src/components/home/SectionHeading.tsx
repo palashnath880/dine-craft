@@ -16,7 +16,9 @@ export default function SectionHeading({
       >
         {title}
       </small>
-      <h1 className={`font-bold font-playball text-5xl text-${color}`}>
+      <h1
+        className={`font-bold font-playball max-sm:text-3xl text-5xl text-center text-${color}`}
+      >
         {subtitle}
       </h1>
     </div>

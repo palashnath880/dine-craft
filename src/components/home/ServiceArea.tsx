@@ -10,6 +10,7 @@ import {
   FaWheelchair,
   FaWineGlass,
 } from "react-icons/fa6";
+import SectionHeading from "./SectionHeading";
 
 type Service = {
   Icon: IconType;
@@ -64,12 +65,7 @@ export default function ServiceArea() {
   return (
     <section className="bg-gray-50 py-20" id="services">
       <div className="container">
-        <div className="flex flex-col items-center gap-5">
-          <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
-            Our Services
-          </small>
-          <h1 className="font-bold font-playball text-5xl">What We Offer</h1>
-        </div>
+        <SectionHeading title="Our Services" subtitle="What We Offer!" />
 
         <div className="mt-10 grid grid-cols-12 gap-5">
           {services.map(({ Icon, content, title }, index) => (
