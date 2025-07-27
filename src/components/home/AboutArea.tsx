@@ -7,8 +7,8 @@ export default function AboutArea() {
   return (
     <section className="py-20" id="about">
       <div className="container">
-        <div className="grid grid-cols-12 gap-20 items-center">
-          <div className="max-lg:hidden col-span-5">
+        <div className="flex gap-20 items-center">
+          <div className="max-lg:hidden w-5/12">
             <Image
               fetchPriority="low"
               width={400}
@@ -20,7 +20,7 @@ export default function AboutArea() {
             />
           </div>
 
-          <div className="col-span-12 md:col-span-7">
+          <div className="w-full lg:w-7/12">
             <div className="flex flex-col items-start gap-5">
               <small className="font-semibold uppercase border-2 border-primary rounded-full px-4 py-1">
                 About Us
@@ -64,7 +64,7 @@ export default function AboutArea() {
               </div>
               <Link
                 href="/about"
-                className="btn-primary flex items-center gap-2"
+                className="btn-primary flex items-center gap-2 max-lg:mt-5"
               >
                 About Us <FaArrowRight />
               </Link>

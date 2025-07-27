@@ -6,8 +6,8 @@ export default function HeroArea() {
   return (
     <section className="bg-primary/10 py-16">
       <div className="container">
-        <div className="grid grid-cols-12 items-center max-lg:gap-20">
-          <div className="col-span-12 lg:col-span-7 max-lg:order-2">
+        <div className="flex max-lg:flex-col-reverse items-center max-lg:gap-20">
+          <div className="w-full lg:w-7/12">
             <div className="flex flex-col items-start max-md:gap-5">
               <small className="text-base font-bold text-secondary border border-primary uppercase px-4 py-1 rounded-full">
                 Welcome to DineCraft
@@ -35,7 +35,7 @@ export default function HeroArea() {
             </div>
           </div>
 
-          <div className="col-span-12 lg:col-span-5 max-lg:order-1">
+          <div className="w-full lg:w-5/12">
             <div className="w-full px-5">
               <Image
                 priority
