@@ -44,7 +44,12 @@ select.my-input{
 }
 
 /** add tailwind class in the testimonial slider */
-
+.testimonial-slider .slick-track{
+  @apply !flex;
+}
+.testimonial-slider .slick-slide{
+  @apply !h-auto;
+}
 .testimonial-slider .slick-slide>div {
   @apply h-full pb-5 px-2;
 }

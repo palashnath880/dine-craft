@@ -43,21 +43,25 @@ export default function TestimonialArea() {
     const container = containerRef.current;
     if (container) {
       const width = container.clientWidth; // get width
+      const slides: NodeListOf<HTMLDivElement> =
+        container.querySelectorAll("div.slick-slide");
+      const highestHeight = Array.from(slides).map((e) => e.clientHeight);
+      console.log(highestHeight);
+
       const slider: HTMLDivElement | null =
         container.querySelector("div.slick-slider");
       if (!slider) return;
 
       slider.style.width = `${width}px`; // set width in the slider
-      slider.style.height = `${slider.clientHeight + 5}px`; // set height in the slider
+      // slider.style.height = `${slider.clientHeight + 5}px`; // set height in the slider
 
       // get slider height
       const height = slider.clientHeight;
 
       // set height the all slick-slide
-      const slides: NodeListOf<HTMLDivElement> =
-        container.querySelectorAll("div.slick-slide");
+
       slides.forEach((ele) => {
-        ele.style.height = `${height}px`;
+        // ele.style.height = `${height}px`;
       });
     }
   }, []);
@@ -66,7 +70,7 @@ export default function TestimonialArea() {
     <section className="py-16" id="testimonial">
       <div className="container">
         <div className="flex max-lg:flex-col max-lg:gap-20 gap-10 bg-primary/10 shadow-xl max-sm:px-4 px-8 py-10 rounded-xl">
-          <div className="lg:flex-1/5">
+          <div className="w-full lg:w-1/5">
             <div className="flex flex-col gap-2 items-start">
               <small
                 className={`font-semibold uppercase border-2 border-primary rounded-full px-4 py-1 text-sm`}
@@ -85,7 +89,7 @@ export default function TestimonialArea() {
               </p>
             </div>
           </div>
-          <div className="lg:flex-4/5">
+          <div className="w-full lg:w-4/5">
             <div className="w-full">
               <div ref={containerRef}>
                 <Slider
@@ -100,6 +104,13 @@ export default function TestimonialArea() {
                   arrows={false}
                   ref={sliderRef}
                   responsive={[
+                    {
+                      breakpoint: 1400,
+                      settings: {
+                        slidesToShow: 3,
+                        initialSlide: 3,
+                      },
+                    },
                     {
                       breakpoint: 768,
                       settings: {
