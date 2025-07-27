@@ -21,13 +21,13 @@ export default function MenuItem(props: MenuItemProps) {
     .padStart(2, "0");
 
   return (
-    <div className="col-span-6">
-      <div className="flex items-center gap-5">
+    <div className="max-md:col-span-12 col-span-6">
+      <div className="flex items-center gap-5 w-full">
         <Image
           draggable={false}
           width={200}
           height={200}
-          className="rounded-full w-40 object-cover cursor-pointer"
+          className="rounded-full max-sm:w-28 w-40 object-cover cursor-pointer"
           src={`/img/menu-${randomNumber}.jpg`}
           alt={title}
         />
