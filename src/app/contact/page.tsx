@@ -123,8 +123,18 @@ export default function Page() {
                       <h4 className="text-secondary font-semibold text-lg">
                         Mail Us
                       </h4>
-                      <p className="text-gray-500">info@example.com</p>
-                      <p className="text-gray-500">support@example.com</p>
+                      <a
+                        className="text-gray-500"
+                        href="mailto:info@example.com"
+                      >
+                        info@example.com
+                      </a>
+                      <a
+                        className="text-gray-500"
+                        href="mailto:support@example.com"
+                      >
+                        support@example.com
+                      </a>
                     </div>
                   </div>
                   <div className="flex items-start gap-5 border border-primary p-4 rounded-md">
@@ -133,8 +143,18 @@ export default function Page() {
                       <h4 className="text-secondary font-semibold text-lg">
                         Telephone
                       </h4>
-                      <p className="text-gray-500">(+012) 3456 7890 123</p>
-                      <p className="text-gray-500">(+704) 5555 0127 296</p>
+                      <a
+                        className="text-gray-500"
+                        href="tel:(+012) 3456 7890 123"
+                      >
+                        (+012) 3456 7890 123
+                      </a>
+                      <a
+                        className="text-gray-500"
+                        href="tel:(+704) 5555 0127 296"
+                      >
+                        (+704) 5555 0127 296
+                      </a>
                     </div>
                   </div>
                 </div>
