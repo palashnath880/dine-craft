@@ -22,7 +22,11 @@ body{
 
 /** my primary button */
 .btn-primary{
-  @apply bg-primary text-secondary rounded-full py-3 px-8 font-medium cursor-pointer
+  @apply bg-primary text-secondary rounded-full py-3 px-8 font-medium cursor-pointer flex items-center justify-center
+}
+
+.btn-primary:disabled{
+  @apply opacity-70 cursor-progress;
 }
 
 /** my modal */

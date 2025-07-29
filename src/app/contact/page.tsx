@@ -1,58 +1,112 @@
+"use client";
+
 import PageHeader from "@/components/shared/PageHeader";
 import React from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { useForm } from "react-hook-form";
+import { ContactForm, contactFormSchema } from "@/schemas/contact.schema";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { RiLoader3Fill } from "react-icons/ri";
 
-export default function page() {
+export default function Page() {
+  // react hook form
+  const {
+    register,
+    formState: { errors, isSubmitting },
+    handleSubmit,
+  } = useForm<ContactForm>({ resolver: zodResolver(contactFormSchema) });
+
+  // submit handler
+  const onSubmit = async (data: ContactForm) => {
+    try {
+      // TODO: add api call here
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve(data);
+        }, 3000);
+      });
+    } catch (err: any) {
+      console.error(err);
+    }
+  };
+
   return (
     <>
       <PageHeader name="Contact" bgImg="/img/contact-bg.webp" />
 
       <section className="py-16">
         <div className="container">
-          <div className="flex flex-col gap-16 bg-primary/5 px-16 py-16 shadow-md rounded-2xl">
+          <div className="flex flex-col gap-16 bg-primary/5 max-sm:px-5 max-md:px-10 px-16 py-16 shadow-md rounded-2xl">
             <div className="flex flex-col items-start gap-5">
               <small
                 className={`font-semibold uppercase border-2 border-primary rounded-full px-4 py-1 text-secondary`}
               >
                 Get in touch
               </small>
-              <h1 className={`font-bold font-playball text-5xl text-secondary`}>
+              <h1
+                className={`font-bold font-playball max-md:text-3xl text-5xl text-secondary`}
+              >
                 Contact Us For Any Queries!
               </h1>
             </div>
 
-            <div className="grid flex-1 grid-cols-12 gap-20">
-              <div className="col-span-12 md:col-span-6">
-                <form className="flex flex-col gap-5">
+            <div className="flex max-lg:flex-col-reverse gap-20">
+              <div className="w-full lg:w-1/2">
+                <form
+                  className="flex flex-col gap-5"
+                  onSubmit={handleSubmit(onSubmit)}
+                >
+                  {/* name input */}
                   <input
-                    required
-                    name="name"
+                    {...register("name")}
                     type="text"
-                    className="w-full rounded-full outline-primary py-3 px-6 border border-primary"
+                    className={`w-full rounded-full py-3 px-6 border ${
+                      errors?.name
+                        ? "border-red-400 outline-red-400"
+                        : "border-primary outline-primary"
+                    }`}
                     placeholder="Your Name"
                   />
+
+                  {/* email input */}
                   <input
-                    required
-                    name="email"
                     type="email"
-                    className="w-full rounded-full outline-primary py-3 px-6 border border-primary"
+                    {...register("email")}
+                    className={`w-full rounded-full py-3 px-6 border ${
+                      errors.email
+                        ? "border-red-400 outline-red-400"
+                        : "border-primary outline-primary"
+                    }`}
                     placeholder="Enter Your Email"
                   />
+
+                  {/* message input */}
                   <textarea
-                    required
-                    name="message"
-                    className="w-full rounded-xl outline-primary py-3 px-6 border border-primary mt-5"
                     rows={4}
                     cols={10}
+                    {...register("message")}
                     placeholder="Your Message"
+                    className={`w-full rounded-xl py-3 px-6 border mt-5 ${
+                      errors.message
+                        ? "border-red-400 outline-red-400"
+                        : "border-primary outline-primary"
+                    }`}
                   ></textarea>
-                  <button className="btn-primary" type="submit">
-                    Submit Now
+                  <button
+                    className={`btn-primary ${isSubmitting && ""}`}
+                    type="submit"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? (
+                      <RiLoader3Fill fontSize={20} className="animate-spin" />
+                    ) : (
+                      "Submit Now"
+                    )}
                   </button>
                 </form>
               </div>
 
-              <div className="col-span-12 md:col-span-6">
+              <div className="w-full lg:w-1/2">
                 <div className="flex flex-col gap-5">
                   <div className="flex items-start gap-5 border border-primary p-4 rounded-md">
                     <FaMapMarkerAlt className="text-primary text-4xl" />
