@@ -10,7 +10,7 @@ export const bookingFormSchema = z.object({
   eventType: z.string("Event type is required"),
   eventDate: z.string("Event date is required"),
   eventTime: z.string("Event time is required"),
-  noOfGuest: z.number("Please enter no of guests"),
+  noOfGuest: z.number("Please enter no of guests").positive(),
   // .or(z.transform((val) => (typeof val !== "number" ? Number(val) : val))),
   // .transform((val) => (typeof val !== "number" ? Number(val) : val)),
   location: z.string({ message: "Location is required" }),

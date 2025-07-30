@@ -9,11 +9,7 @@ import { useForm } from "react-hook-form";
 
 export default function Page() {
   // react hook form
-  const {
-    control,
-    handleSubmit,
-    formState: { errors, defaultValues },
-  } = useForm<BookingForm>({
+  const { control, handleSubmit } = useForm<BookingForm>({
     resolver: zodResolver(bookingFormSchema),
   });
 
@@ -119,7 +115,6 @@ export default function Page() {
                       name="noOfGuest"
                       control={control}
                       placeholder="Number of Guests"
-                      defaultValue={1}
                     />
                   </div>
                   <div className="col-span-full sm:col-span-6">
