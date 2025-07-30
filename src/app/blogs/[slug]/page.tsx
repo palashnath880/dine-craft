@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import React from "react";
+import React, { cache } from "react";
 import { FaCalendarAlt, FaUserAlt } from "react-icons/fa";
 import {
   FaFacebookF,
@@ -14,17 +14,26 @@ import {
   FaWhatsapp,
   FaXTwitter,
 } from "react-icons/fa6";
+import posts from "../../../../mock-data/posts.json";
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
+// generate static page
+export async function generateStaticParams() {
+  return posts.map((i) => ({ slug: i.slug }));
+}
+
+// generate metadata
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const slug = (await props.params).slug;
   const post = await getPostBySlug(slug);
-  return { title: `${post?.title}` };
+  //   cache();
+  return { title: post?.title, description: post?.description?.slice(0, 150) };
 }
 
+// route component
 export default async function page({ params }: Props) {
   const slug = (await params).slug;
   const post = await getPostBySlug(slug);
