@@ -1,110 +1,138 @@
-import PageHeader from "@/components/shared/PageHeader";
-import React from "react";
+"use client";
 
-export default function page() {
+import { Input, SelectInput } from "@/components/shared/CustomInputs";
+import PageHeader from "@/components/shared/PageHeader";
+import { BookingForm, bookingFormSchema } from "@/schemas/booking.schema";
+import { zodResolver } from "@hookform/resolvers/zod";
+import React from "react";
+import { useForm } from "react-hook-form";
+
+export default function Page() {
+  // react hook form
+  const {
+    control,
+    handleSubmit,
+    formState: { errors, defaultValues },
+  } = useForm<BookingForm>({
+    resolver: zodResolver(bookingFormSchema),
+  });
+
+  // submit handler
+  const onSubmit = async (data: BookingForm) => {
+    console.log(`submitted data`, data);
+  };
+
   return (
     <>
       <PageHeader name="Booking" bgImg="/img/booking-bg.webp" />
 
       <section className="py-16">
         <div className="container">
-          <div className="flex flex-col gap-16 bg-primary/5 px-16 py-16 shadow-md rounded-2xl">
+          <div className="flex flex-col gap-16 bg-primary/5 max-md:px-5 px-16 py-16 shadow-md rounded-2xl">
             <div className="flex flex-col items-start gap-5">
               <small
                 className={`font-semibold uppercase border-2 border-primary rounded-full px-4 py-1 text-secondary`}
               >
                 Book Us
               </small>
-              <h1 className={`font-bold font-playball text-5xl text-secondary`}>
+              <h1
+                className={`font-bold font-playball max-md:text-3xl text-5xl text-secondary`}
+              >
                 Where you want Our Services
               </h1>
             </div>
 
             <div className="flex">
-              <form className="w-3/5">
-                <div className="grid grid-cols-12 gap-x-5 gap-y-7">
-                  <div className="col-span-6">
-                    <input
-                      required
-                      name="name"
+              <form
+                className="w-full md:w-3/5"
+                onSubmit={handleSubmit(onSubmit)}
+              >
+                <div className="grid grid-cols-12 gap-x-5 gap-y-5 sm:gap-y-7">
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
                       type="text"
-                      className="my-input"
+                      name="name"
+                      control={control}
                       placeholder="Your Name"
                     />
                   </div>
-                  <div className="col-span-6">
-                    <input
-                      required
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
+                      type="text"
                       name="email"
-                      type="email"
-                      className="my-input"
+                      control={control}
                       placeholder="Your Email"
                     />
                   </div>
-                  <div className="col-span-6">
-                    <input
-                      required
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
+                      type="text"
                       name="phone"
-                      type="tel"
-                      className="my-input"
+                      control={control}
                       placeholder="Your Phone"
                     />
                   </div>
-                  <div className="col-span-6">
-                    <select
-                      className="my-input"
+                  <div className="col-span-full sm:col-span-6">
+                    <SelectInput
                       name="eventType"
-                      required
-                      value={""}
-                    >
-                      <option value="" disabled>
-                        Event Type
-                      </option>
-                      <option value="Wedding">Wedding</option>
-                      <option value="Cocktail">Cocktail</option>
-                      <option value="Corporate">Corporate</option>
-                      <option value="Buffet">Buffet</option>
-                    </select>
+                      control={control}
+                      placeholder="Select Event Type"
+                      options={[
+                        {
+                          label: "Wedding",
+                          value: "Wedding",
+                        },
+                        {
+                          label: "Cocktail",
+                          value: "Cocktail",
+                        },
+                        {
+                          label: "Corporate",
+                          value: "Corporate",
+                        },
+                        {
+                          label: "Buffet",
+                          value: "Buffet",
+                        },
+                      ]}
+                    />
                   </div>
-                  <div className="col-span-6">
-                    <input
-                      required
-                      name="eventDate"
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
                       type="date"
-                      className="my-input"
+                      name="eventDate"
+                      control={control}
                       placeholder="Event Date"
                     />
                   </div>
-                  <div className="col-span-6">
-                    <input
-                      required
-                      name="eventTime"
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
                       type="time"
-                      className="my-input"
+                      name="eventTime"
+                      control={control}
                       placeholder="Event Time"
                     />
                   </div>
-                  <div className="col-span-6">
-                    <input
-                      required
-                      name="noOfGuest"
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
                       type="number"
-                      className="my-input"
+                      name="noOfGuest"
+                      control={control}
                       placeholder="Number of Guests"
+                      defaultValue={1}
                     />
                   </div>
-                  <div className="col-span-6">
-                    <input
-                      required
-                      name="location"
+                  <div className="col-span-full sm:col-span-6">
+                    <Input
                       type="text"
-                      className="my-input"
-                      placeholder="Location"
+                      name="location"
+                      control={control}
+                      placeholder="Event Location"
                     />
                   </div>
 
                   <div className="col-span-12">
-                    <div className="flex flex-col gap-4 items-start">
+                    <div className="flex flex-col gap-4 max-md:gap-7 items-start">
                       <div className="flex items-center gap-2">
                         <input
                           type="checkbox"
@@ -118,7 +146,10 @@ export default function page() {
                           Agree to Terms & Conditions
                         </label>
                       </div>
-                      <button className="btn-primary" type="submit">
+                      <button
+                        className="btn-primary max-sm:!w-full"
+                        type="submit"
+                      >
                         Book Catering Now
                       </button>
                     </div>
