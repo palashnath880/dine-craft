@@ -51,7 +51,11 @@ export const Input = <T extends FieldValues>(props: InputProps<T>) => {
             type={type}
             name={name}
             value={value}
-            onChange={onChange}
+            onChange={(e) =>
+              type === "number"
+                ? onChange(Number(e.target.value))
+                : onChange(e.target.value)
+            }
             placeholder={placeholder}
             className={`${className} my-input ${
               error
