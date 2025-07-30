@@ -1,5 +1,6 @@
 import { getPostBySlug } from "@/lib/fetchers";
 import moment from "moment";
+import { Metadata } from "next";
 import { headers } from "next/headers";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -14,7 +15,17 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-export default async function page({ params }: { params: { slug: string } }) {
+interface Props {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const slug = (await props.params).slug;
+  const post = await getPostBySlug(slug);
+  return { title: `${post?.title}` };
+}
+
+export default async function page({ params }: Props) {
   const slug = (await params).slug;
   const post = await getPostBySlug(slug);
   const header = await headers();
@@ -113,6 +124,7 @@ export default async function page({ params }: { params: { slug: string } }) {
               <div className="flex items-center gap-4">
                 {shareLinks.map(({ Icon, url, name }) => (
                   <a
+                    key={name}
                     href={url}
                     target="_blank"
                     title={name}
