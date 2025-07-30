@@ -80,7 +80,7 @@ export default function Header() {
               )}
             >
               {menus.map(({ href, label }, index) => (
-                <li key={index}>
+                <li key={index} onClick={() => setIsOpen(false)}>
                   <Link
                     href={href}
                     className="font-semibold text-gray-500 hover:text-primary transition duration-300"
