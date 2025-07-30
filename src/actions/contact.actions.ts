@@ -3,7 +3,7 @@
 import { contactFormSchema } from "@/schemas/contact.schema";
 import z from "zod";
 
-export const sendContactEmail = async (_, form: any) => {
+export const sendContactEmail = async (_: any, form: any) => {
   try {
     // params validation
     const formData = Object.fromEntries(form);
