@@ -20,3 +20,11 @@ export async function getMenus(): Promise<Menu[]> {
 export async function getPosts(): Promise<Post[]> {
   return posts as Post[];
 }
+
+/**
+ * Get post by slug
+ */
+export async function getPostBySlug(slug: string): Promise<Post | null> {
+  const post = (posts as Post[]).find((i) => i.slug === slug) || null;
+  return post;
+}
