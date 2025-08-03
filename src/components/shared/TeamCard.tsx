@@ -1,3 +1,4 @@
+import { TeamMember } from "@/interfaces/team-member";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,13 +9,14 @@ import {
   FaTwitter,
 } from "react-icons/fa6";
 
-type TeamCardProps = {
-  name: string;
-  title: string;
-  imgURL: string;
-};
+type TeamCardProps = TeamMember;
 
-export default function TeamCard({ name, imgURL, title }: TeamCardProps) {
+export default function TeamCard({
+  name,
+  img_url,
+  position,
+  specialty,
+}: TeamCardProps) {
   return (
     <div
       className="col-span-3"
@@ -28,7 +30,7 @@ export default function TeamCard({ name, imgURL, title }: TeamCardProps) {
       <div className="flex flex-col gap-5">
         <div className="flex flex-col items-center gap-1 pt-10">
           <h6 className="uppercase font-semibold text-white">{name}</h6>
-          <p className="text-gray-300">{title}</p>
+          <p className="text-gray-300">{position}</p>
           <div className="flex items-center text-white gap-1 mt-4">
             <Link
               href={"#"}
@@ -56,14 +58,20 @@ export default function TeamCard({ name, imgURL, title }: TeamCardProps) {
             </Link>
           </div>
         </div>
-        <div className="w-full overflow-hidden aspect-[3/4]">
+        <div className="w-28 mx-auto overflow-hidden aspect-square rounded-full">
           <Image
-            src={imgURL}
+            draggable={false}
+            src={img_url}
             width={200}
             height={200}
             alt={name}
             className="w-full h-full object-cover"
           />
+        </div>
+        <div className="py-5 pb-10">
+          <p className="text-center text-primary/60 font-medium italic">
+            {specialty}
+          </p>
         </div>
       </div>
     </div>

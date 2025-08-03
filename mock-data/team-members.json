@@ -1,0 +1,310 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Chef Marcus Rivera",
+    "img_url": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=200&h=200&fit=crop",
+    "position": "Executive Chef",
+    "specialty": "Farm-to-Table Cuisine"
+  },
+  {
+    "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+    "name": "Sophie Laurent",
+    "img_url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&h=200&fit=crop",
+    "position": "Pastry Chef",
+    "specialty": "French Desserts"
+  },
+  {
+    "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+    "name": "Raj Patel",
+    "img_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "position": "Sous Chef",
+    "specialty": "Indian Fusion"
+  },
+  {
+    "id": "d4e5f6g7-h8i9-0123-defg-456789012345",
+    "name": "Elena Vasquez",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    "position": "Event Coordinator",
+    "specialty": "Corporate Galas"
+  },
+  {
+    "id": "e5f6g7h8-i9j0-1234-efgh-567890123456",
+    "name": "James Carter",
+    "img_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    "position": "Head Bartender",
+    "specialty": "Craft Cocktails"
+  },
+  {
+    "id": "f6g7h8i9-j0k1-2345-fghi-678901234567",
+    "name": "Aisha Johnson",
+    "img_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop",
+    "position": "Lead Server",
+    "specialty": "VIP Service"
+  },
+  {
+    "id": "g7h8i9j0-k1l2-3456-ghij-789012345678",
+    "name": "Diego Martinez",
+    "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop",
+    "position": "Catering Manager",
+    "specialty": "Logistics"
+  },
+  {
+    "id": "h8i9j0k1-l2m3-4567-hijk-890123456789",
+    "name": "Lena Park",
+    "img_url": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200&h=200&fit=crop",
+    "position": "Sommelier",
+    "specialty": "Wine Pairings"
+  },
+  {
+    "id": "i9j0k1l2-m3n4-5678-ijkl-901234567890",
+    "name": "Thomas Wright",
+    "img_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    "position": "Logistics Supervisor",
+    "specialty": "Large-Scale Events"
+  },
+  {
+    "id": "j0k1l2m3-n4o5-6789-jklm-012345678901",
+    "name": "Nina Chen",
+    "img_url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=200&h=200&fit=crop",
+    "position": "Dietary Specialist",
+    "specialty": "Allergen-Free Menus"
+  },
+  {
+    "id": "k1l2m3n4-o5p6-7890-klmn-123456789012",
+    "name": "Carlos Mendez",
+    "img_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    "position": "Grill Master",
+    "specialty": "BBQ & Smoked Meats"
+  },
+  {
+    "id": "l2m3n4o5-p6q7-8901-lmno-234567890123",
+    "name": "Fatima Al-Mansoori",
+    "img_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "position": "Halal Cuisine Chef",
+    "specialty": "Middle Eastern Flavors"
+  },
+  {
+    "id": "m3n4o5p6-q7r8-9012-mnop-345678901234",
+    "name": "Oliver Schmidt",
+    "img_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "position": "Bakery Supervisor",
+    "specialty": "Artisan Breads"
+  },
+  {
+    "id": "n4o5p6q7-r8s9-0123-nopq-456789012345",
+    "name": "Yuki Tanaka",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    "position": "Sushi Specialist",
+    "specialty": "Omakase Presentations"
+  },
+  {
+    "id": "o5p6q7r8-s9t0-1234-opqr-567890123456",
+    "name": "Kwame Okafor",
+    "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop",
+    "position": "Vegetarian Chef",
+    "specialty": "Plant-Based Innovation"
+  },
+  {
+    "id": "p6q7r8s9-t0u1-2345-pqrs-678901234567",
+    "name": "Isabella Rossi",
+    "img_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
+    "position": "Cold Kitchen Chef",
+    "specialty": "Charcuterie & Salads"
+  },
+  {
+    "id": "q7r8s9t0-u1v2-3456-qrst-789012345678",
+    "name": "Mateo Herrera",
+    "img_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    "position": "Mixologist",
+    "specialty": "Molecular Cocktails"
+  },
+  {
+    "id": "r8s9t0u1-v2w3-4567-rstu-890123456789",
+    "name": "Anika Desai",
+    "img_url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=200&h=200&fit=crop",
+    "position": "Event Designer",
+    "specialty": "Tablescapes & Styling"
+  },
+  {
+    "id": "s9t0u1v2-w3x4-5678-stuv-901234567890",
+    "name": "Luca Ferrari",
+    "img_url": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=200&h=200&fit=crop",
+    "position": "Pasta Chef",
+    "specialty": "Handmade Pastas"
+  },
+  {
+    "id": "t0u1v2w3-x4y5-6789-tuvw-012345678901",
+    "name": "Zara Khan",
+    "img_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "position": "Beverage Director",
+    "specialty": "Tea & Coffee Pairings"
+  },
+  {
+    "id": "u1v2w3x4-y5z6-7890-uvwx-123456789012",
+    "name": "Javier Morales",
+    "img_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "position": "Taco Specialist",
+    "specialty": "Authentic Street Food"
+  },
+  {
+    "id": "v2w3x4y5-z6a7-8901-vwxy-234567890123",
+    "name": "Mei Lin",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    "position": "Dim Sum Chef",
+    "specialty": "Hand-Folded Dumplings"
+  },
+  {
+    "id": "w3x4y5z6-a7b8-9012-wxyz-345678901234",
+    "name": "Andre Dubois",
+    "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop",
+    "position": "Sauce Chef",
+    "specialty": "Classic French Sauces"
+  },
+  {
+    "id": "x4y5z6a7-b8c9-0123-xyza-456789012345",
+    "name": "Nia Johnson",
+    "img_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop",
+    "position": "Vegan Pastry Chef",
+    "specialty": "Dairy-Free Desserts"
+  },
+  {
+    "id": "y5z6a7b8-c9d0-1234-yzab-567890123456",
+    "name": "Hassan Ibrahim",
+    "img_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    "position": "Kebab Master",
+    "specialty": "Middle Eastern Grilling"
+  },
+  {
+    "id": "z6a7b8c9-d0e1-2345-zabc-678901234567",
+    "name": "Elena Popescu",
+    "img_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
+    "position": "Canapé Specialist",
+    "specialty": "One-Bite Wonders"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-abcd-789012345678",
+    "name": "Rohan Kapoor",
+    "img_url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=200&h=200&fit=crop",
+    "position": "Tandoor Chef",
+    "specialty": "Clay Oven Cooking"
+  },
+  {
+    "id": "b8c9d0e1-f2g3-4567-bcde-890123456789",
+    "name": "Claire Beaumont",
+    "img_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "position": "Brunch Chef",
+    "specialty": "Eggs Benedict Variations"
+  },
+  {
+    "id": "c9d0e1f2-g3h4-5678-cdef-901234567890",
+    "name": "Dmitri Volkov",
+    "img_url": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=200&h=200&fit=crop",
+    "position": "Caviar Specialist",
+    "specialty": "Luxury Appetizers"
+  },
+  {
+    "id": "d0e1f2g3-h4i5-6789-defg-012345678901",
+    "name": "Amina Diallo",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    "position": "African Cuisine Chef",
+    "specialty": "West African Stews"
+  },
+  {
+    "id": "e1f2g3h4-i5j6-7890-efgh-123456789012",
+    "name": "Liam O'Connor",
+    "img_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "position": "Pub Food Chef",
+    "specialty": "Gourmet Comfort Food"
+  },
+  {
+    "id": "f2g3h4i5-j6k7-8901-fghi-234567890123",
+    "name": "Yara Santos",
+    "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop",
+    "position": "Cake Designer",
+    "specialty": "Sculpted Wedding Cakes"
+  },
+  {
+    "id": "g3h4i5j6-k7l8-9012-ghij-345678901234",
+    "name": "Rafael Ortega",
+    "img_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    "position": "Paella Chef",
+    "specialty": "Seafood & Saffron Dishes"
+  },
+  {
+    "id": "h4i5j6k7-l8m9-0123-hijk-456789012345",
+    "name": "Sophia Petrov",
+    "img_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
+    "position": "Gluten-Free Baker",
+    "specialty": "Flourless Desserts"
+  },
+  {
+    "id": "i5j6k7l8-m9n0-1234-ijkl-567890123456",
+    "name": "Tariq Abdullah",
+    "img_url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=200&h=200&fit=crop",
+    "position": "Coffee Roaster",
+    "specialty": "Single-Origin Brews"
+  },
+  {
+    "id": "j6k7l8m9-n0o1-2345-jklm-678901234567",
+    "name": "Elise Moreau",
+    "img_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "position": "Cheese Sommelier",
+    "specialty": "Artisanal Cheese Boards"
+  },
+  {
+    "id": "k7l8m9n0-o1p2-3456-klmn-789012345678",
+    "name": "Hiro Tanaka",
+    "img_url": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=200&h=200&fit=crop",
+    "position": "Ramen Chef",
+    "specialty": "Tonkotsu Broths"
+  },
+  {
+    "id": "l8m9n0o1-p2q3-4567-lmno-890123456789",
+    "name": "Camille Rousseau",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    "position": "Chocolate Artisan",
+    "specialty": "Hand-Painted Bonbons"
+  },
+  {
+    "id": "m9n0o1p2-q3r4-5678-mnop-901234567890",
+    "name": "Antonio Silva",
+    "img_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "position": "Churrasco Chef",
+    "specialty": "Brazilian Grill"
+  },
+  {
+    "id": "n0o1p2q3-r4s5-6789-nopq-012345678901",
+    "name": "Leila Abbas",
+    "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop",
+    "position": "Spice Blender",
+    "specialty": "Custom Seasoning Mixes"
+  },
+  {
+    "id": "o1p2q3r4-s5t6-7890-opqr-123456789012",
+    "name": "Felix Müller",
+    "img_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    "position": "Pretzel Baker",
+    "specialty": "German Beer Pairings"
+  },
+  {
+    "id": "p2q3r4s5-t6u7-8901-pqrs-234567890123",
+    "name": "Ananya Reddy",
+    "img_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
+    "position": "Chutney Specialist",
+    "specialty": "South Indian Condiments"
+  },
+  {
+    "id": "q3r4s5t6-u7v8-9012-qrst-345678901234",
+    "name": "Dominic King",
+    "img_url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=200&h=200&fit=crop",
+    "position": "Oyster Shucker",
+    "specialty": "Seafood Raw Bar"
+  },
+  {
+    "id": "r4s5t6u7-v8w9-0123-rstu-456789012345",
+    "name": "Ingrid Bergman",
+    "img_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "position": "Smörgåsbord Curator",
+    "specialty": "Nordic Feast Spreads"
+  }
+]
