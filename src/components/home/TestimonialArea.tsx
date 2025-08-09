@@ -43,10 +43,6 @@ export default function TestimonialArea() {
     const container = containerRef.current;
     if (container) {
       const width = container.clientWidth; // get width
-      const slides: NodeListOf<HTMLDivElement> =
-        container.querySelectorAll("div.slick-slide");
-      const highestHeight = Array.from(slides).map((e) => e.clientHeight);
-      console.log(highestHeight);
 
       const slider: HTMLDivElement | null =
         container.querySelector("div.slick-slider");
@@ -55,14 +51,7 @@ export default function TestimonialArea() {
       slider.style.width = `${width}px`; // set width in the slider
       // slider.style.height = `${slider.clientHeight + 5}px`; // set height in the slider
 
-      // get slider height
-      const height = slider.clientHeight;
-
       // set height the all slick-slide
-
-      slides.forEach((ele) => {
-        // ele.style.height = `${height}px`;
-      });
     }
   }, []);
 
