@@ -36,15 +36,17 @@ export default function HeroArea() {
           </div>
 
           <div className="w-full lg:w-5/12">
-            <div className="w-full px-5">
-              <Image
-                priority
-                fill
-                draggable={false}
-                src="/img/hero.png"
-                className="w-full object-contain"
-                alt="Hero Image"
-              />
+            <div className="px-5">
+              <div className="w-full aspect-square relative">
+                <Image
+                  priority
+                  fill
+                  draggable={false}
+                  src="/img/hero.png"
+                  className="w-full object-cover h-full"
+                  alt="Hero Image"
+                />
+              </div>
             </div>
           </div>
         </div>
