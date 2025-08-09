@@ -39,8 +39,7 @@ export default function HeroArea() {
             <div className="w-full px-5">
               <Image
                 priority
-                width={200}
-                height={200}
+                fill
                 draggable={false}
                 src="/img/hero.png"
                 className="w-full object-contain"

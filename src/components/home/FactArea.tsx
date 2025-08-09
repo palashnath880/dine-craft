@@ -93,10 +93,9 @@ export default function FactArea() {
             <div className="w-full lg:w-5/12">
               <div className="aspect-[16/12] w-full relative rounded-lg overflow-hidden">
                 <Image
-                  width={400}
-                  height={400}
+                  fill
                   src={"/img/fact.jpg"}
-                  alt=""
+                  alt="fact image"
                   className="w-full h-full object-cover"
                 />
                 <div className="w-full h-full top-0 left-0 absolute grid place-items-center">
